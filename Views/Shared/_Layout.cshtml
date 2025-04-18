@@ -1,0 +1,62 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"]VCV Coffee</title>
+    <link rel="icon" type="image/x-icon" href="~/img/logo.png" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/MyWebApp.styles.css" asp-append-version="true" />
+</head>
+<body>
+    <header class="bg-danger py-3">
+    <div class="container header-container">
+        <div class="d-flex align-items-center justify-content-around gap-2 flex-nowrap text-white">
+            <div class="menu-icon text-white text-center px-2 py-1">
+                @for (int i = 0; i < 3; i++)
+                {
+                    <div class="bar"></div>
+                }
+                <div class="label">MENU</div>
+            </div>
+            <img src="~/img/logo.png" alt="Logo" style="height: 60px;" />
+
+            <!-- Search -->
+            <form class="input-group flex-grow-2" style="max-width: 500px; min-width: 200px;">
+                <input class="form-control border-0" type="search" placeholder="Tìm sản phẩm..." />
+                <button class="btn btn-outline-secondary" type="submit">
+                    <i class="fas fa-search"></i>
+                </button>
+            </form>
+
+            <!-- Account -->
+            <div class="head-acc">
+                <i class="fas fa-user"></i>
+                <div>Tài khoản</div>
+            </div>
+        </div>
+    </div>
+</header>
+    <main role="main" class="container py-4">
+        @RenderBody()
+    </main>
+
+    <footer class="bg-dark text-white py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h4 class="footer-title">Công ty TNHH Việt Cường Vũ</h4>
+                    <p class="small"></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

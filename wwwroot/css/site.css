@@ -1,0 +1,32 @@
+.header-container   {
+    padding: 0 10rem;
+}
+
+.menu-icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #a03737;
+    color: white;
+    border-radius: 4px;
+    padding: 15px 12px; 
+}
+
+.menu-icon .bar {
+    height: 4px;
+    width: 30px;
+    background-color: white;
+    margin: 2px 0; /* Tạo khoảng cách đều trên/dưới mỗi bar */
+}
+
+.menu-icon .label {
+    font-size: 13px;
+    font-weight: bold;
+    margin: 0; /* xóa toàn bộ margin */
+    padding: 0;
+    line-height: 1;
+}
+.head-acc   {
+    align-items: center;
+    text-align: center;
+}
