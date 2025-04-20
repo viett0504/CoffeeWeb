@@ -7,38 +7,53 @@
     <link rel="icon" type="image/x-icon" href="~/img/logo.png" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />   
     <link rel="stylesheet" href="~/MyWebApp.styles.css" asp-append-version="true" />
 </head>
 <body>
     <header class="bg-danger py-3">
-    <div class="container header-container">
-        <div class="d-flex align-items-center justify-content-around gap-2 flex-nowrap text-white">
-            <div class="menu-icon text-white text-center px-2 py-1">
-                @for (int i = 0; i < 3; i++)
-                {
-                    <div class="bar"></div>
-                }
-                <div class="label">MENU</div>
-            </div>
-            <img src="~/img/logo.png" alt="Logo" style="height: 60px;" />
+        <div class="container header-container">
+            <div class="d-flex align-items-center justify-content-around gap-4 flex-nowrap text-white">
+                
+                <!-- Nút menu -->
+                <div id="menuToggle" class="menu-icon text-white text-center px-2 py-1" style="cursor: pointer;">
+                    @for (int i = 0; i < 3; i++)
+                    {
+                        <div class="bar"></div>
+                    }
+                    <div class="label">MENU</div>
+                </div>
 
-            <!-- Search -->
-            <form class="input-group flex-grow-2" style="max-width: 500px; min-width: 200px;">
-                <input class="form-control border-0" type="search" placeholder="Tìm sản phẩm..." />
-                <button class="btn btn-outline-secondary" type="submit">
-                    <i class="fas fa-search"></i>
-                </button>
-            </form>
-
-            <!-- Account -->
-            <div class="head-acc">
-                <i class="fas fa-user"></i>
-                <div>Tài khoản</div>
+                <!-- Logo + search + account như cũ -->
+                <img src="~/img/logo.png" alt="Logo" style="height: 60px;" />
+                <form class="input-group flex-grow-2" style="max-width: 500px; min-width: 200px;">
+                    <input class="form-control border-0" type="search" placeholder="Tìm sản phẩm..." />
+                    <button class="btn btn-outline-secondary" type="submit">
+                        <i class="fas fa-search"></i>
+                    </button>
+                </form>
+                <div class="head-acc">
+                    <i class="fas fa-user"></i>
+                    <div>Tài khoản</div>
+                </div>
             </div>
+            
         </div>
+    </header>
+    <div id="slideMenu" class="custom-menu shadow bg-white position-absolute" style="display: none;">
+        <div class="menu-header d-flex justify-content-between align-items-center px-3 py-2 border-bottom">
+            <span class="fw-bold fs-5">☕ Menu chính</span>
+            <button class="btn-close" id="menuClose"></button>
+        </div>
+        <ul class="nav flex-column px-3 py-2">
+            <li class="nav-item"><a href="/Product" class="nav-link text-dark">🥤 Sản phẩm</a></li>
+            <li class="nav-item"><a href="/Order" class="nav-link text-dark">📋 Đơn hàng</a></li>
+            <li class="nav-item"><a href="/Inventory" class="nav-link text-dark">📦 Kho</a></li>
+            <li class="nav-item"><a href="/Staff" class="nav-link text-dark">👥 Nhân viên</a></li>
+            <li class="nav-item"><a href="/Revenue" class="nav-link text-dark">📈 Thống kê</a></li>
+        </ul>
     </div>
-</header>
+
     <main role="main" class="container py-4">
         @RenderBody()
     </main>
@@ -53,6 +68,24 @@
             </div>
         </div>
     </footer>
+
+    <script>
+        function syncSlideMenuWidth() {
+            const headerContent = document.querySelector('.header-container .d-flex.align-items-center.justify-content-around');
+            const slideMenu = document.getElementById('slideMenu');
+
+            if (headerContent && slideMenu) {
+                const width = headerContent.offsetWidth;
+                const left = headerContent.getBoundingClientRect().left + window.scrollX;
+
+                slideMenu.style.width = `${width}px`;
+                slideMenu.style.left = `${left}px`; // đặt vị trí trùng với header
+            }
+        }
+
+        document.addEventListener('DOMContentLoaded', syncSlideMenuWidth);
+        window.addEventListener('resize', syncSlideMenuWidth); // cập nhật lại khi resize
+    </script>
 
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>

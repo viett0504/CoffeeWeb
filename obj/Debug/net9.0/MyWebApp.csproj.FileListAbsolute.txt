@@ -17,7 +17,6 @@
 /Users/doanhuy/Downloads/WorkSpace/MyWebApp/obj/Debug/net9.0/scopedcss/Views/Shared/_Layout.cshtml.rz.scp.css
 /Users/doanhuy/Downloads/WorkSpace/MyWebApp/obj/Debug/net9.0/scopedcss/bundle/MyWebApp.styles.css
 /Users/doanhuy/Downloads/WorkSpace/MyWebApp/obj/Debug/net9.0/scopedcss/projectbundle/MyWebApp.bundle.scp.css
-/Users/doanhuy/Downloads/WorkSpace/MyWebApp/obj/Debug/net9.0/compressed/lxqromdiip-xtxxf3hu2r.gz
 /Users/doanhuy/Downloads/WorkSpace/MyWebApp/obj/Debug/net9.0/compressed/7i9eb05270-bqjiyaj88i.gz
 /Users/doanhuy/Downloads/WorkSpace/MyWebApp/obj/Debug/net9.0/compressed/wnvfw0r6x1-c2jlpeoesf.gz
 /Users/doanhuy/Downloads/WorkSpace/MyWebApp/obj/Debug/net9.0/compressed/u2un7eg0f5-erw9l3u2r3.gz
@@ -93,4 +92,6 @@
 /Users/doanhuy/Downloads/WorkSpace/MyWebApp/obj/Debug/net9.0/ref/MyWebApp.dll
 /Users/doanhuy/Downloads/WorkSpace/MyWebApp/obj/Debug/net9.0/compressed/t6h9p7noyw-jfxhsjvdio.gz
 /Users/doanhuy/Downloads/WorkSpace/MyWebApp/obj/Debug/net9.0/compressed/5zg7rpvgf1-jfxhsjvdio.gz
-/Users/doanhuy/Downloads/WorkSpace/MyWebApp/obj/Debug/net9.0/compressed/fc4x9g7hx4-yk9rusqxfd.gz
+/Users/doanhuy/Downloads/WorkSpace/MyWebApp/obj/Debug/net9.0/MyWebApp.sourcelink.json
+/Users/doanhuy/Downloads/WorkSpace/MyWebApp/obj/Debug/net9.0/compressed/lxqromdiip-95xbs42oc0.gz
+/Users/doanhuy/Downloads/WorkSpace/MyWebApp/obj/Debug/net9.0/compressed/fc4x9g7hx4-fr8md9iek1.gz

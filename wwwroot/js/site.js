@@ -1,4 +1,25 @@
-﻿// Please see documentation at https://learn.microsoft.com/aspnet/core/client-side/bundling-and-minification
-// for details on configuring this project to bundle and minify static web assets.
+﻿document.addEventListener('DOMContentLoaded', function () {
+    const menuToggle = document.getElementById('menuToggle');
+    const slideMenu = document.getElementById('slideMenu');
+    const menuClose = document.getElementById('menuClose');
 
-// Write your JavaScript code.
+    if (menuToggle && slideMenu && menuClose) {
+        // Toggle menu
+        menuToggle.addEventListener('click', () => {
+            const isVisible = window.getComputedStyle(slideMenu).display === 'block';
+            slideMenu.style.display = isVisible ? 'none' : 'block';
+        });
+
+        // Close menu when clicking the close button
+        menuClose.addEventListener('click', () => {
+            slideMenu.style.display = 'none';
+        });
+
+        // OPTIONAL: Close menu if click outside
+        document.addEventListener('click', (e) => {
+            if (!slideMenu.contains(e.target) && !menuToggle.contains(e.target)) {
+                slideMenu.style.display = 'none';
+            }
+        });
+    }
+});

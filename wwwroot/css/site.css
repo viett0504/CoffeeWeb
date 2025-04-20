@@ -1,5 +1,7 @@
 .header-container   {
     padding: 0 10rem;
+    position: relative;
+    z-index: 10;
 }
 
 .menu-icon {
@@ -8,7 +10,7 @@
     align-items: center;
     background-color: #a03737;
     color: white;
-    border-radius: 4px;
+    border-radius: 4px; 
     padding: 15px 12px; 
 }
 
@@ -17,12 +19,14 @@
     width: 30px;
     background-color: white;
     margin: 2px 0; /* Tạo khoảng cách đều trên/dưới mỗi bar */
+    border-radius: 2px;
+    transition: 0.3s;
 }
 
 .menu-icon .label {
     font-size: 13px;
     font-weight: bold;
-    margin: 0; /* xóa toàn bộ margin */
+    margin-top: 5px; 
     padding: 0;
     line-height: 1;
 }
@@ -30,3 +34,55 @@
     align-items: center;
     text-align: center;
 }
+
+.custom-menu {
+    position: absolute;
+    top: 60px; /* tuỳ vào chiều cao navbar */
+    left: 0;
+    right: 0;
+    z-index: 1050;
+    background-color: #fff;
+    animation: slideDown 0.3s ease forwards;
+    border-radius: 0 0 10px 10px;
+}
+
+@keyframes slideDown {
+    from { transform: translateY(-20px); opacity: 0; }
+    to { transform: translateY(0); opacity: 1; }
+}
+
+.custom-menu .nav-link:hover {
+    background-color: #f8f9fa;
+    border-radius: 5px;
+}
+
+#slideMenu {
+    display: none;
+    top: 92px; /* chỉnh theo     đúng chiều cao header */
+    left: 0;
+    width: 100%; /* hoặc 100% nếu cần rộng */
+    background-color: white;
+    z-index: 999;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    border-radius: 8px;
+}
+
+.custom-menu .menu-header {
+    padding: 10px 15px;
+    background: #f8f9fa;
+    border-bottom: 1px solid #dee2e6;
+}
+
+.custom-menu .nav {
+    padding: 10px 0;
+}
+
+.custom-menu .nav-item {
+    padding: 8px 15px;
+}
+
+.custom-menu .nav-link {
+    color: #333;
+    font-size: 14px;
+}
+
