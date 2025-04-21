@@ -78,11 +78,12 @@
 }
 
 .custom-menu .nav-item {
-    padding: 8px 15px;
+    padding: 8px 0;
 }
 
 .custom-menu .nav-link {
     color: #333;
     font-size: 14px;
+    padding: 0;
 }
 

@@ -13,6 +13,10 @@
       "PackagePath": "staticwebassets/img/logo.png"
     },
     {
+      "Id": "/Users/doanhuy/Downloads/WorkSpace/MyWebApp/wwwroot/js/chart.js",
+      "PackagePath": "staticwebassets/js/chart.js"
+    },
+    {
       "Id": "/Users/doanhuy/Downloads/WorkSpace/MyWebApp/wwwroot/js/site.js",
       "PackagePath": "staticwebassets/js/site.js"
     },

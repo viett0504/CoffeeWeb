@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "VgOymUdRq7HbDChWxgOicULGpfFGwqhZDJGEeTkiT1U=",
+  "Hash": "HYKNh4TjNagoRes98SK4jWwc3XwTKl8Nqbs1FF7wN84=",
   "Source": "MyWebApp",
   "BasePath": "_content/MyWebApp",
   "Mode": "Default",
@@ -584,12 +584,12 @@
       "OriginalItemSpec": "/Users/doanhuy/Downloads/WorkSpace/MyWebApp/wwwroot/lib/jquery/dist/jquery.slim.js"
     },
     {
-      "Identity": "/Users/doanhuy/Downloads/WorkSpace/MyWebApp/obj/Debug/net9.0/compressed/fc4x9g7hx4-fr8md9iek1.gz",
+      "Identity": "/Users/doanhuy/Downloads/WorkSpace/MyWebApp/obj/Debug/net9.0/compressed/fc4x9g7hx4-z4o700wk57.gz",
       "SourceId": "MyWebApp",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/doanhuy/Downloads/WorkSpace/MyWebApp/obj/Debug/net9.0/compressed/",
       "BasePath": "_content/MyWebApp",
-      "RelativePath": "css/site#[.{fingerprint=fr8md9iek1}]?.css.gz",
+      "RelativePath": "css/site#[.{fingerprint=z4o700wk57}]?.css.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -598,8 +598,8 @@
       "RelatedAsset": "/Users/doanhuy/Downloads/WorkSpace/MyWebApp/wwwroot/css/site.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "ed5qc1hd1l",
-      "Integrity": "TuIQKU1NP7erYd1/VnCLnxtbMlonDzFDGszTUH77ojI=",
+      "Fingerprint": "5dkeb288do",
+      "Integrity": "Z+7uhWsAbazAicpfjJcwcBpxGACwk1R/rcnJ+MXO5qs=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "/Users/doanhuy/Downloads/WorkSpace/MyWebApp/wwwroot/css/site.css"
@@ -1256,6 +1256,27 @@
       "OriginalItemSpec": "/Users/doanhuy/Downloads/WorkSpace/MyWebApp/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map"
     },
     {
+      "Identity": "/Users/doanhuy/Downloads/WorkSpace/MyWebApp/obj/Debug/net9.0/compressed/ydn4r2363w-m7hll1enzo.gz",
+      "SourceId": "MyWebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/doanhuy/Downloads/WorkSpace/MyWebApp/obj/Debug/net9.0/compressed/",
+      "BasePath": "_content/MyWebApp",
+      "RelativePath": "js/chart#[.{fingerprint=m7hll1enzo}]?.js.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "/Users/doanhuy/Downloads/WorkSpace/MyWebApp/wwwroot/js/chart.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "jjkh5ie9si",
+      "Integrity": "P0/DOramhbBoYangJRXisE9sHVFrX9jy074kseFrCxM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/Users/doanhuy/Downloads/WorkSpace/MyWebApp/wwwroot/js/chart.js"
+    },
+    {
       "Identity": "/Users/doanhuy/Downloads/WorkSpace/MyWebApp/obj/Debug/net9.0/compressed/yk3ly9er6x-493y06b0oq.gz",
       "SourceId": "MyWebApp",
       "SourceType": "Discovered",
@@ -1396,8 +1417,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "fr8md9iek1",
-      "Integrity": "22bbGIbb45AgpB6qDLhA8Nw7VFH8tkhckMl3vKs4QDE=",
+      "Fingerprint": "z4o700wk57",
+      "Integrity": "83VFIL83aXUngqedjv6tFJ8uyTCEdKNdWJwMZc71kTQ=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/css/site.css"
@@ -1422,6 +1443,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/img/logo.png"
+    },
+    {
+      "Identity": "/Users/doanhuy/Downloads/WorkSpace/MyWebApp/wwwroot/js/chart.js",
+      "SourceId": "MyWebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/doanhuy/Downloads/WorkSpace/MyWebApp/wwwroot/",
+      "BasePath": "_content/MyWebApp",
+      "RelativePath": "js/chart#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "m7hll1enzo",
+      "Integrity": "njyeEzTHmDTjXPaF1HgXvoudNg5FfYXxaqaWeN/9KxY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/js/chart.js"
     },
     {
       "Identity": "/Users/doanhuy/Downloads/WorkSpace/MyWebApp/wwwroot/js/site.js",
@@ -2708,12 +2750,12 @@
   "Endpoints": [
     {
       "Route": "css/site.css",
-      "AssetFile": "/Users/doanhuy/Downloads/WorkSpace/MyWebApp/obj/Debug/net9.0/compressed/fc4x9g7hx4-fr8md9iek1.gz",
+      "AssetFile": "/Users/doanhuy/Downloads/WorkSpace/MyWebApp/obj/Debug/net9.0/compressed/fc4x9g7hx4-z4o700wk57.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.001298701299"
+          "Quality": "0.001303780965"
         }
       ],
       "ResponseHeaders": [
@@ -2723,15 +2765,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "769"
+          "Value": "766"
         },
         {
           "Name": "ETag",
-          "Value": "\"TuIQKU1NP7erYd1/VnCLnxtbMlonDzFDGszTUH77ojI=\""
+          "Value": "\"Z+7uhWsAbazAicpfjJcwcBpxGACwk1R/rcnJ+MXO5qs=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 20 Apr 2025 14:50:26 GMT"
+          "Value": "Sun, 20 Apr 2025 17:32:47 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2751,13 +2793,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"22bbGIbb45AgpB6qDLhA8Nw7VFH8tkhckMl3vKs4QDE=\""
+          "Value": "W/\"83VFIL83aXUngqedjv6tFJ8uyTCEdKNdWJwMZc71kTQ=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-22bbGIbb45AgpB6qDLhA8Nw7VFH8tkhckMl3vKs4QDE="
+          "Value": "sha256-83VFIL83aXUngqedjv6tFJ8uyTCEdKNdWJwMZc71kTQ="
         }
       ]
     },
@@ -2772,7 +2814,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1804"
+          "Value": "1798"
         },
         {
           "Name": "Content-Type",
@@ -2780,11 +2822,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"22bbGIbb45AgpB6qDLhA8Nw7VFH8tkhckMl3vKs4QDE=\""
+          "Value": "\"83VFIL83aXUngqedjv6tFJ8uyTCEdKNdWJwMZc71kTQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 20 Apr 2025 14:50:26 GMT"
+          "Value": "Sun, 20 Apr 2025 17:32:47 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2794,13 +2836,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-22bbGIbb45AgpB6qDLhA8Nw7VFH8tkhckMl3vKs4QDE="
+          "Value": "sha256-83VFIL83aXUngqedjv6tFJ8uyTCEdKNdWJwMZc71kTQ="
         }
       ]
     },
     {
       "Route": "css/site.css.gz",
-      "AssetFile": "/Users/doanhuy/Downloads/WorkSpace/MyWebApp/obj/Debug/net9.0/compressed/fc4x9g7hx4-fr8md9iek1.gz",
+      "AssetFile": "/Users/doanhuy/Downloads/WorkSpace/MyWebApp/obj/Debug/net9.0/compressed/fc4x9g7hx4-z4o700wk57.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2809,7 +2851,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "769"
+          "Value": "766"
         },
         {
           "Name": "Content-Type",
@@ -2817,11 +2859,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"TuIQKU1NP7erYd1/VnCLnxtbMlonDzFDGszTUH77ojI=\""
+          "Value": "\"Z+7uhWsAbazAicpfjJcwcBpxGACwk1R/rcnJ+MXO5qs=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 20 Apr 2025 14:50:26 GMT"
+          "Value": "Sun, 20 Apr 2025 17:32:47 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2839,18 +2881,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-TuIQKU1NP7erYd1/VnCLnxtbMlonDzFDGszTUH77ojI="
+          "Value": "sha256-Z+7uhWsAbazAicpfjJcwcBpxGACwk1R/rcnJ+MXO5qs="
         }
       ]
     },
     {
-      "Route": "css/site.fr8md9iek1.css",
-      "AssetFile": "/Users/doanhuy/Downloads/WorkSpace/MyWebApp/obj/Debug/net9.0/compressed/fc4x9g7hx4-fr8md9iek1.gz",
+      "Route": "css/site.z4o700wk57.css",
+      "AssetFile": "/Users/doanhuy/Downloads/WorkSpace/MyWebApp/obj/Debug/net9.0/compressed/fc4x9g7hx4-z4o700wk57.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.001298701299"
+          "Quality": "0.001303780965"
         }
       ],
       "ResponseHeaders": [
@@ -2860,15 +2902,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "769"
+          "Value": "766"
         },
         {
           "Name": "ETag",
-          "Value": "\"TuIQKU1NP7erYd1/VnCLnxtbMlonDzFDGszTUH77ojI=\""
+          "Value": "\"Z+7uhWsAbazAicpfjJcwcBpxGACwk1R/rcnJ+MXO5qs=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 20 Apr 2025 14:50:26 GMT"
+          "Value": "Sun, 20 Apr 2025 17:32:47 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2888,13 +2930,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"22bbGIbb45AgpB6qDLhA8Nw7VFH8tkhckMl3vKs4QDE=\""
+          "Value": "W/\"83VFIL83aXUngqedjv6tFJ8uyTCEdKNdWJwMZc71kTQ=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "fr8md9iek1"
+          "Value": "z4o700wk57"
         },
         {
           "Name": "label",
@@ -2902,12 +2944,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-22bbGIbb45AgpB6qDLhA8Nw7VFH8tkhckMl3vKs4QDE="
+          "Value": "sha256-83VFIL83aXUngqedjv6tFJ8uyTCEdKNdWJwMZc71kTQ="
         }
       ]
     },
     {
-      "Route": "css/site.fr8md9iek1.css",
+      "Route": "css/site.z4o700wk57.css",
       "AssetFile": "/Users/doanhuy/Downloads/WorkSpace/MyWebApp/wwwroot/css/site.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -2917,7 +2959,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1804"
+          "Value": "1798"
         },
         {
           "Name": "Content-Type",
@@ -2925,11 +2967,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"22bbGIbb45AgpB6qDLhA8Nw7VFH8tkhckMl3vKs4QDE=\""
+          "Value": "\"83VFIL83aXUngqedjv6tFJ8uyTCEdKNdWJwMZc71kTQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 20 Apr 2025 14:50:26 GMT"
+          "Value": "Sun, 20 Apr 2025 17:32:47 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2939,7 +2981,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "fr8md9iek1"
+          "Value": "z4o700wk57"
         },
         {
           "Name": "label",
@@ -2947,13 +2989,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-22bbGIbb45AgpB6qDLhA8Nw7VFH8tkhckMl3vKs4QDE="
+          "Value": "sha256-83VFIL83aXUngqedjv6tFJ8uyTCEdKNdWJwMZc71kTQ="
         }
       ]
     },
     {
-      "Route": "css/site.fr8md9iek1.css.gz",
-      "AssetFile": "/Users/doanhuy/Downloads/WorkSpace/MyWebApp/obj/Debug/net9.0/compressed/fc4x9g7hx4-fr8md9iek1.gz",
+      "Route": "css/site.z4o700wk57.css.gz",
+      "AssetFile": "/Users/doanhuy/Downloads/WorkSpace/MyWebApp/obj/Debug/net9.0/compressed/fc4x9g7hx4-z4o700wk57.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2962,7 +3004,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "769"
+          "Value": "766"
         },
         {
           "Name": "Content-Type",
@@ -2970,11 +3012,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"TuIQKU1NP7erYd1/VnCLnxtbMlonDzFDGszTUH77ojI=\""
+          "Value": "\"Z+7uhWsAbazAicpfjJcwcBpxGACwk1R/rcnJ+MXO5qs=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 20 Apr 2025 14:50:26 GMT"
+          "Value": "Sun, 20 Apr 2025 17:32:47 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2992,7 +3034,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "fr8md9iek1"
+          "Value": "z4o700wk57"
         },
         {
           "Name": "label",
@@ -3000,7 +3042,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-TuIQKU1NP7erYd1/VnCLnxtbMlonDzFDGszTUH77ojI="
+          "Value": "sha256-Z+7uhWsAbazAicpfjJcwcBpxGACwk1R/rcnJ+MXO5qs="
         }
       ]
     },
@@ -3083,6 +3125,304 @@
         {
           "Name": "integrity",
           "Value": "sha256-9QEifJQnGVxAOl27j7hE3Nup9rNwnIjirDPTZ2rYZoc="
+        }
+      ]
+    },
+    {
+      "Route": "js/chart.js",
+      "AssetFile": "/Users/doanhuy/Downloads/WorkSpace/MyWebApp/obj/Debug/net9.0/compressed/ydn4r2363w-m7hll1enzo.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.003597122302"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "277"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"P0/DOramhbBoYangJRXisE9sHVFrX9jy074kseFrCxM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 07:30:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"njyeEzTHmDTjXPaF1HgXvoudNg5FfYXxaqaWeN/9KxY=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-njyeEzTHmDTjXPaF1HgXvoudNg5FfYXxaqaWeN/9KxY="
+        }
+      ]
+    },
+    {
+      "Route": "js/chart.js",
+      "AssetFile": "/Users/doanhuy/Downloads/WorkSpace/MyWebApp/wwwroot/js/chart.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "547"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"njyeEzTHmDTjXPaF1HgXvoudNg5FfYXxaqaWeN/9KxY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 07:30:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-njyeEzTHmDTjXPaF1HgXvoudNg5FfYXxaqaWeN/9KxY="
+        }
+      ]
+    },
+    {
+      "Route": "js/chart.js.gz",
+      "AssetFile": "/Users/doanhuy/Downloads/WorkSpace/MyWebApp/obj/Debug/net9.0/compressed/ydn4r2363w-m7hll1enzo.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "277"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"P0/DOramhbBoYangJRXisE9sHVFrX9jy074kseFrCxM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 07:30:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-P0/DOramhbBoYangJRXisE9sHVFrX9jy074kseFrCxM="
+        }
+      ]
+    },
+    {
+      "Route": "js/chart.m7hll1enzo.js",
+      "AssetFile": "/Users/doanhuy/Downloads/WorkSpace/MyWebApp/obj/Debug/net9.0/compressed/ydn4r2363w-m7hll1enzo.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.003597122302"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "277"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"P0/DOramhbBoYangJRXisE9sHVFrX9jy074kseFrCxM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 07:30:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"njyeEzTHmDTjXPaF1HgXvoudNg5FfYXxaqaWeN/9KxY=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "m7hll1enzo"
+        },
+        {
+          "Name": "label",
+          "Value": "js/chart.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-njyeEzTHmDTjXPaF1HgXvoudNg5FfYXxaqaWeN/9KxY="
+        }
+      ]
+    },
+    {
+      "Route": "js/chart.m7hll1enzo.js",
+      "AssetFile": "/Users/doanhuy/Downloads/WorkSpace/MyWebApp/wwwroot/js/chart.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "547"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"njyeEzTHmDTjXPaF1HgXvoudNg5FfYXxaqaWeN/9KxY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 07:30:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "m7hll1enzo"
+        },
+        {
+          "Name": "label",
+          "Value": "js/chart.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-njyeEzTHmDTjXPaF1HgXvoudNg5FfYXxaqaWeN/9KxY="
+        }
+      ]
+    },
+    {
+      "Route": "js/chart.m7hll1enzo.js.gz",
+      "AssetFile": "/Users/doanhuy/Downloads/WorkSpace/MyWebApp/obj/Debug/net9.0/compressed/ydn4r2363w-m7hll1enzo.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "277"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"P0/DOramhbBoYangJRXisE9sHVFrX9jy074kseFrCxM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 07:30:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "m7hll1enzo"
+        },
+        {
+          "Name": "label",
+          "Value": "js/chart.js.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-P0/DOramhbBoYangJRXisE9sHVFrX9jy074kseFrCxM="
         }
       ]
     },
