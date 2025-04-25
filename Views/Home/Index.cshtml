@@ -1,62 +1,69 @@
 ﻿@{
-    ViewData["Title"] = "Trang chủ";
+    ViewData["Title"] = "VCV Coffee - Trang chủ";
 }
 <div class="container my-4">
-    <div class="p-4 rounded shadow bg-light border border-2">
+    <div class="p-4 rounded shadow-sm bg-light border">
         <h2 class="mb-4">📊 Tổng Quan Quản Lý</h2>
 
         <div class="row g-4 mb-4">
+            <!-- Sản phẩm -->
             <div class="col-md-3">
-                <div class="card text-white bg-primary shadow">
-                    <div class="card-body">
+                <div class="card text-white bg-primary shadow-sm p-3 d-flex flex-row justify-content-between align-items-center rounded-4">
+                    <div>
                         <h5 class="card-title">Sản phẩm</h5>
-                        <p class="card-text fs-4">150</p>
+                        <p class="fs-4 mb-0">150</p>
                     </div>
+                    <i class="bi bi-cup-hot fs-1"></i>
                 </div>
             </div>
+
+            <!-- Đơn hàng -->
             <div class="col-md-3">
-                <div class="card text-white bg-success shadow">
-                    <div class="card-body">
+                <div class="card text-white bg-success shadow-sm p-3 d-flex flex-row justify-content-between align-items-center rounded-4">
+                    <div>
                         <h5 class="card-title">Đơn hàng</h5>
-                        <p class="card-text fs-4">230</p>
+                        <p class="fs-4 mb-0">230</p>
                     </div>
+                    <i class="bi bi-cart-check fs-1"></i>
                 </div>
             </div>
+
+            <!-- Khách hàng -->
             <div class="col-md-3">
-                <div class="card text-white bg-warning shadow">
-                    <div class="card-body">
+                <div class="card text-white bg-warning shadow-sm p-3 d-flex flex-row justify-content-between align-items-center rounded-4">
+                    <div>
                         <h5 class="card-title">Khách hàng</h5>
-                        <p class="card-text fs-4">120</p>
+                        <p class="fs-4 mb-0">120</p>
                     </div>
+                    <i class="bi bi-people fs-1"></i>
                 </div>
             </div>
+
+            <!-- Doanh thu -->
             <div class="col-md-3">
-                <div class="card text-white bg-danger shadow">
-                    <div class="card-body">
+                <div class="card text-white bg-danger shadow-sm p-3 d-flex flex-row justify-content-between align-items-center rounded-4">
+                    <div>
                         <h5 class="card-title">Doanh thu</h5>
-                        <p class="card-text fs-4">75.000.000đ</p>
+                        <p class="fs-4 mb-0">75.000.000đ</p>
                     </div>
+                    <i class="bi bi-graph-up-arrow fs-1"></i>
                 </div>
             </div>
         </div>
 
+        <!-- Biểu đồ & sản phẩm bán chạy -->
         <div class="row g-4 mb-4">
             <div class="col-md-8">
-                <div class="card shadow">
-                    <div class="card-header bg-light">
-                        <strong>📈 Doanh thu theo tháng</strong>
-                    </div>
+                <div class="card shadow-sm rounded-4">
+                    <div class="card-header bg-light fw-bold">📈 Doanh thu theo tháng</div>
                     <div class="card-body">
-                        <!-- Biểu đồ chèn sau -->
                         <canvas id="revenueChart" height="120"></canvas>
                     </div>
                 </div>
             </div>
             <div class="col-md-4">
-                <div class="card shadow">
-                    <div class="card-header bg-light">
-                        <strong>🔥 Sản phẩm bán chạy</strong>
-                    </div>
+                <div class="card shadow-sm rounded-4">
+                    <div class="card-header bg-light fw-bold">🔥 Sản phẩm bán chạy</div>
                     <ul class="list-group list-group-flush">
                         <li class="list-group-item">Cà phê sữa đá</li>
                         <li class="list-group-item">Bạc xỉu</li>
@@ -67,6 +74,7 @@
         </div>
     </div>
 </div>
+
 <script src="/js/chart.js"></script>
 <script>
     const ctx = document.getElementById('revenueChart').getContext('2d');

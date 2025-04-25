@@ -9,8 +9,24 @@
       "PackagePath": "staticwebassets/css/site.css"
     },
     {
+      "Id": "/Users/doanhuy/Downloads/WorkSpace/MyWebApp/wwwroot/img/checkout.png",
+      "PackagePath": "staticwebassets/img/checkout.png"
+    },
+    {
+      "Id": "/Users/doanhuy/Downloads/WorkSpace/MyWebApp/wwwroot/img/coffee-cup.png",
+      "PackagePath": "staticwebassets/img/coffee-cup.png"
+    },
+    {
+      "Id": "/Users/doanhuy/Downloads/WorkSpace/MyWebApp/wwwroot/img/customer.png",
+      "PackagePath": "staticwebassets/img/customer.png"
+    },
+    {
       "Id": "/Users/doanhuy/Downloads/WorkSpace/MyWebApp/wwwroot/img/logo.png",
       "PackagePath": "staticwebassets/img/logo.png"
+    },
+    {
+      "Id": "/Users/doanhuy/Downloads/WorkSpace/MyWebApp/wwwroot/img/revenue.png",
+      "PackagePath": "staticwebassets/img/revenue.png"
     },
     {
       "Id": "/Users/doanhuy/Downloads/WorkSpace/MyWebApp/wwwroot/js/chart.js",

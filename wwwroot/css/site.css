@@ -1,3 +1,7 @@
+html    {
+    font-family: serif;
+}
+
 .header-container   {
     padding: 0 10rem;
     position: relative;
