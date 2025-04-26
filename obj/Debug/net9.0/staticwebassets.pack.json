@@ -5,28 +5,52 @@
       "PackagePath": "staticwebassets/MyWebApp.jfxhsjvdio.bundle.scp.css"
     },
     {
+      "Id": "/Users/doanhuy/Downloads/WorkSpace/MyWebApp/wwwroot/Img/logo.jpg",
+      "PackagePath": "staticwebassets/Img/logo.jpg"
+    },
+    {
+      "Id": "/Users/doanhuy/Downloads/WorkSpace/MyWebApp/wwwroot/Img/sanpham/banh.jpeg",
+      "PackagePath": "staticwebassets/Img/sanpham/banh.jpeg"
+    },
+    {
+      "Id": "/Users/doanhuy/Downloads/WorkSpace/MyWebApp/wwwroot/Img/sanpham/banh2.jpeg",
+      "PackagePath": "staticwebassets/Img/sanpham/banh2.jpeg"
+    },
+    {
+      "Id": "/Users/doanhuy/Downloads/WorkSpace/MyWebApp/wwwroot/Img/sanpham/bm.jpeg",
+      "PackagePath": "staticwebassets/Img/sanpham/bm.jpeg"
+    },
+    {
+      "Id": "/Users/doanhuy/Downloads/WorkSpace/MyWebApp/wwwroot/Img/sanpham/cafe1.jpg",
+      "PackagePath": "staticwebassets/Img/sanpham/cafe1.jpg"
+    },
+    {
+      "Id": "/Users/doanhuy/Downloads/WorkSpace/MyWebApp/wwwroot/Img/sanpham/cafe2.jpg",
+      "PackagePath": "staticwebassets/Img/sanpham/cafe2.jpg"
+    },
+    {
+      "Id": "/Users/doanhuy/Downloads/WorkSpace/MyWebApp/wwwroot/Img/sanpham/cafe3.jpg",
+      "PackagePath": "staticwebassets/Img/sanpham/cafe3.jpg"
+    },
+    {
+      "Id": "/Users/doanhuy/Downloads/WorkSpace/MyWebApp/wwwroot/Img/sanpham/cafe4.jpg",
+      "PackagePath": "staticwebassets/Img/sanpham/cafe4.jpg"
+    },
+    {
+      "Id": "/Users/doanhuy/Downloads/WorkSpace/MyWebApp/wwwroot/Img/sanpham/tra1.jpg",
+      "PackagePath": "staticwebassets/Img/sanpham/tra1.jpg"
+    },
+    {
+      "Id": "/Users/doanhuy/Downloads/WorkSpace/MyWebApp/wwwroot/Img/sanpham/tra2.png",
+      "PackagePath": "staticwebassets/Img/sanpham/tra2.png"
+    },
+    {
+      "Id": "/Users/doanhuy/Downloads/WorkSpace/MyWebApp/wwwroot/Img/sanpham/tra3.jpeg",
+      "PackagePath": "staticwebassets/Img/sanpham/tra3.jpeg"
+    },
+    {
       "Id": "/Users/doanhuy/Downloads/WorkSpace/MyWebApp/wwwroot/css/site.css",
       "PackagePath": "staticwebassets/css/site.css"
-    },
-    {
-      "Id": "/Users/doanhuy/Downloads/WorkSpace/MyWebApp/wwwroot/img/checkout.png",
-      "PackagePath": "staticwebassets/img/checkout.png"
-    },
-    {
-      "Id": "/Users/doanhuy/Downloads/WorkSpace/MyWebApp/wwwroot/img/coffee-cup.png",
-      "PackagePath": "staticwebassets/img/coffee-cup.png"
-    },
-    {
-      "Id": "/Users/doanhuy/Downloads/WorkSpace/MyWebApp/wwwroot/img/customer.png",
-      "PackagePath": "staticwebassets/img/customer.png"
-    },
-    {
-      "Id": "/Users/doanhuy/Downloads/WorkSpace/MyWebApp/wwwroot/img/logo.png",
-      "PackagePath": "staticwebassets/img/logo.png"
-    },
-    {
-      "Id": "/Users/doanhuy/Downloads/WorkSpace/MyWebApp/wwwroot/img/revenue.png",
-      "PackagePath": "staticwebassets/img/revenue.png"
     },
     {
       "Id": "/Users/doanhuy/Downloads/WorkSpace/MyWebApp/wwwroot/js/chart.js",

@@ -1,0 +1,127 @@
+@model List<MyWebApp.Models.Product>
+@{
+    ViewData["Title"] = "Sản phẩm";
+}
+
+<div class="container mt-5">
+    <div class="card shadow-lg rounded">
+        <div class="card-header bg-dark text-white d-flex justify-content-between align-items-center">
+            <h3 class="mb-0">@ViewData["Title"]</h3>
+            <button type="button" class="btn btn-success btn-sm" data-bs-toggle="modal" data-bs-target="#addProductModal">
+                <i class="fas fa-plus"></i>
+            </button>
+        </div>
+        <div class="card-body p-4">
+            <table class="table table-hover table-striped table-bordered text-center align-middle">
+                <thead class="table-dark">
+                    <tr>
+                        <th>#</th>
+                        <th>Tên Sản Phẩm</th>
+                        <th>Mô Tả</th>
+                        <th>Giá</th>
+                        <th>Số Lượng Tồn</th>
+                        <th>Loại Sản Phẩm</th>
+                        <th> </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var product in Model)
+                    {
+                        <tr>
+                            <td>@product.MaSP</td>
+                            <td>@product.TenSP</td>
+                            <td>@product.MoTa</td>
+                            <td>@String.Format("{0:#,##0} đ", product.Gia)</td>
+                            <td>@product.SoLuongTon</td>
+                            <td>@product.LoaiSP</td>
+                            <td>
+                                <a href="/SanPham/Detail/@product.MaSP" class="btn btn-sm btn-primary me-1">
+                                    <i class="fas fa-eye"></i> Xem
+                                </a>
+                                <form method="post" action="/SanPham/Delete/@product.MaSP" style="display:inline;" onsubmit="return confirm('Bạn có chắc muốn xóa sản phẩm này?');">
+                                    <button type="submit" class="btn btn-sm btn-danger">
+                                        <i class="fas fa-trash-alt"></i> Xóa
+                                    </button>
+                                </form>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+<!-- Modal Thêm Sản Phẩm -->
+<div class="modal fade" id="addProductModal" tabindex="-1" aria-labelledby="addProductModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="addProductModalLabel">Thêm Sản Phẩm Mới</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Đóng"></button>
+      </div>
+      <form id="addProductForm" method="post" action="/SanPham/Create">
+          <div class="modal-body">
+              <div class="mb-3">
+                  <label class="form-label">Tên Sản Phẩm</label>
+                  <input type="text" name="TenSP" class="form-control" required />
+              </div>
+              <div class="mb-3">
+                  <label class="form-label">Mô Tả</label>
+                  <textarea name="MoTa" class="form-control" required></textarea>
+              </div>
+              <div class="mb-3">
+                  <label class="form-label">Giá</label>
+                  <input type="number" name="Gia" class="form-control" required min="1" />
+              </div>
+              <div class="mb-3">
+                  <label class="form-label">Số Lượng Tồn</label>
+                  <input type="number" name="SoLuongTon" class="form-control" required min="0" />
+              </div>
+              <div class="mb-3">
+                  <label class="form-label">Loại Sản Phẩm</label>
+                  <input type="text" name="LoaiSP" class="form-control" required />
+              </div>
+              <div id="validationMessage" class="text-danger mb-2" style="display:none;"></div>
+          </div>
+          <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Hủy</button>
+              <button type="submit" class="btn btn-primary">Lưu</button>
+          </div>
+      </form>
+    </div>
+  </div>
+</div>
+
+<!-- Script Validation -->
+@section Scripts {
+<script>
+    document.getElementById("addProductForm").addEventListener("submit", function (e) {
+        var tenSP = this.TenSP.value.trim();
+        var moTa = this.MoTa.value.trim();
+        var gia = parseFloat(this.Gia.value);
+        var soLuongTon = parseInt(this.SoLuongTon.value);
+        var loaiSP = this.LoaiSP.value.trim();
+        var message = "";
+
+        if (!tenSP) {
+            message = "Tên sản phẩm không được để trống.";
+        } else if (!moTa) {
+            message = "Mô tả không được để trống.";
+        } else if (isNaN(gia) || gia <= 0) {
+            message = "Giá phải là số lớn hơn 0.";
+        } else if (isNaN(soLuongTon) || soLuongTon < 0) {
+            message = "Số lượng tồn phải là số từ 0 trở lên.";
+        } else if (!loaiSP) {
+            message = "Loại sản phẩm không được để trống.";
+        }
+
+        if (message) {
+            e.preventDefault(); // chặn submit
+            var validationDiv = document.getElementById("validationMessage");
+            validationDiv.innerText = message;
+            validationDiv.style.display = "block";
+        }
+    });
+</script>
+}

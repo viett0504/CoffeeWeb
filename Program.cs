@@ -3,6 +3,11 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
+
+// Đăng ký ProductService và MssqlConnection vào container DI
+builder.Services.AddScoped<ProductService>();  // Đăng ký ProductService
+builder.Services.AddScoped<MssqlConnection>(); // Đăng ký MssqlConnection
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "3MbAfrtnM1AN3yEA6JBXY66C/UpDcF9ZtL6GSTdJuKA=",
+  "Hash": "jzfAzuRDC7qhBr2CdVvrH/Hxx9i2fgbpxZfp9xwq3jg=",
   "Source": "MyWebApp",
   "BasePath": "_content/MyWebApp",
   "Mode": "Default",
@@ -584,12 +584,12 @@
       "OriginalItemSpec": "/Users/doanhuy/Downloads/WorkSpace/MyWebApp/wwwroot/lib/jquery/dist/jquery.slim.js"
     },
     {
-      "Identity": "/Users/doanhuy/Downloads/WorkSpace/MyWebApp/obj/Debug/net9.0/compressed/fc4x9g7hx4-z4o700wk57.gz",
+      "Identity": "/Users/doanhuy/Downloads/WorkSpace/MyWebApp/obj/Debug/net9.0/compressed/fc4x9g7hx4-ru0qy35kdi.gz",
       "SourceId": "MyWebApp",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/doanhuy/Downloads/WorkSpace/MyWebApp/obj/Debug/net9.0/compressed/",
       "BasePath": "_content/MyWebApp",
-      "RelativePath": "css/site#[.{fingerprint=z4o700wk57}]?.css.gz",
+      "RelativePath": "css/site#[.{fingerprint=ru0qy35kdi}]?.css.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -598,8 +598,8 @@
       "RelatedAsset": "/Users/doanhuy/Downloads/WorkSpace/MyWebApp/wwwroot/css/site.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "5dkeb288do",
-      "Integrity": "Z+7uhWsAbazAicpfjJcwcBpxGACwk1R/rcnJ+MXO5qs=",
+      "Fingerprint": "9a792r5sl8",
+      "Integrity": "IWtIBiS31RYnUIQvmA8E0PIu3V6r7w+M8fjx0Csq/aQ=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "/Users/doanhuy/Downloads/WorkSpace/MyWebApp/wwwroot/css/site.css"
@@ -1417,19 +1417,19 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "z4o700wk57",
-      "Integrity": "83VFIL83aXUngqedjv6tFJ8uyTCEdKNdWJwMZc71kTQ=",
+      "Fingerprint": "ru0qy35kdi",
+      "Integrity": "LdtIDiaHToXsK0QIn2H1u0Sw+jTLbda4fHDPHYCx2yc=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/css/site.css"
     },
     {
-      "Identity": "/Users/doanhuy/Downloads/WorkSpace/MyWebApp/wwwroot/img/checkout.png",
+      "Identity": "/Users/doanhuy/Downloads/WorkSpace/MyWebApp/wwwroot/Img/logo.jpg",
       "SourceId": "MyWebApp",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/doanhuy/Downloads/WorkSpace/MyWebApp/wwwroot/",
       "BasePath": "_content/MyWebApp",
-      "RelativePath": "img/checkout#[.{fingerprint}]?.png",
+      "RelativePath": "Img/logo#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1438,19 +1438,19 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "kimr87s11o",
-      "Integrity": "RNFfRe1JCOWvPD+X5ouIBtN05C+LKd6NPF8q/6nvn3g=",
+      "Fingerprint": "ikowgfwwgf",
+      "Integrity": "ng+JQpdJOFPqUibkwFJnplRsvqMtmWUzpsDOqEQwksA=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/img/checkout.png"
+      "OriginalItemSpec": "wwwroot/Img/logo.jpg"
     },
     {
-      "Identity": "/Users/doanhuy/Downloads/WorkSpace/MyWebApp/wwwroot/img/coffee-cup.png",
+      "Identity": "/Users/doanhuy/Downloads/WorkSpace/MyWebApp/wwwroot/Img/sanpham/banh.jpeg",
       "SourceId": "MyWebApp",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/doanhuy/Downloads/WorkSpace/MyWebApp/wwwroot/",
       "BasePath": "_content/MyWebApp",
-      "RelativePath": "img/coffee-cup#[.{fingerprint}]?.png",
+      "RelativePath": "Img/sanpham/banh#[.{fingerprint}]?.jpeg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1459,19 +1459,19 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "d0gfa9iwp7",
-      "Integrity": "zSz3gtMasa0AlADrB1yMK8taLBy6iIBhNjdWt19YGrM=",
+      "Fingerprint": "pcudyvqa6o",
+      "Integrity": "6TjnUSTL0L80EvzwGhSsaIupr+krOr7Ib9AI0DsUvr4=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/img/coffee-cup.png"
+      "OriginalItemSpec": "wwwroot/Img/sanpham/banh.jpeg"
     },
     {
-      "Identity": "/Users/doanhuy/Downloads/WorkSpace/MyWebApp/wwwroot/img/customer.png",
+      "Identity": "/Users/doanhuy/Downloads/WorkSpace/MyWebApp/wwwroot/Img/sanpham/banh2.jpeg",
       "SourceId": "MyWebApp",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/doanhuy/Downloads/WorkSpace/MyWebApp/wwwroot/",
       "BasePath": "_content/MyWebApp",
-      "RelativePath": "img/customer#[.{fingerprint}]?.png",
+      "RelativePath": "Img/sanpham/banh2#[.{fingerprint}]?.jpeg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1480,19 +1480,19 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "fw2malc46x",
-      "Integrity": "LzaHem+sRd8/1B79le3JvHHhNkFpvV9EKq954Rne/pg=",
+      "Fingerprint": "0ccxl4r12w",
+      "Integrity": "sHFTkBVvzghB3UjrGmqJ4+TzH3iGnppZtOAQWLfWJAY=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/img/customer.png"
+      "OriginalItemSpec": "wwwroot/Img/sanpham/banh2.jpeg"
     },
     {
-      "Identity": "/Users/doanhuy/Downloads/WorkSpace/MyWebApp/wwwroot/img/logo.png",
+      "Identity": "/Users/doanhuy/Downloads/WorkSpace/MyWebApp/wwwroot/Img/sanpham/bm.jpeg",
       "SourceId": "MyWebApp",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/doanhuy/Downloads/WorkSpace/MyWebApp/wwwroot/",
       "BasePath": "_content/MyWebApp",
-      "RelativePath": "img/logo#[.{fingerprint}]?.png",
+      "RelativePath": "Img/sanpham/bm#[.{fingerprint}]?.jpeg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1501,19 +1501,19 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "di68724x92",
-      "Integrity": "9QEifJQnGVxAOl27j7hE3Nup9rNwnIjirDPTZ2rYZoc=",
+      "Fingerprint": "79g480vjpn",
+      "Integrity": "tRz5VKmz/vHc5+3Bh4gi32ldanWXt9sIM3iKnDMsHLA=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/img/logo.png"
+      "OriginalItemSpec": "wwwroot/Img/sanpham/bm.jpeg"
     },
     {
-      "Identity": "/Users/doanhuy/Downloads/WorkSpace/MyWebApp/wwwroot/img/revenue.png",
+      "Identity": "/Users/doanhuy/Downloads/WorkSpace/MyWebApp/wwwroot/Img/sanpham/cafe1.jpg",
       "SourceId": "MyWebApp",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/doanhuy/Downloads/WorkSpace/MyWebApp/wwwroot/",
       "BasePath": "_content/MyWebApp",
-      "RelativePath": "img/revenue#[.{fingerprint}]?.png",
+      "RelativePath": "Img/sanpham/cafe1#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1522,11 +1522,137 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "kt8tdvkka9",
-      "Integrity": "GOV7Tcs5Rdmtm9gDSIB93vCRVa0B6LCGgJS/Plo8ch0=",
+      "Fingerprint": "3gz91rr9r5",
+      "Integrity": "TQdqFErAVJf03npbP3O4yycEsMvM1VH6YeHVsRBfWBM=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/img/revenue.png"
+      "OriginalItemSpec": "wwwroot/Img/sanpham/cafe1.jpg"
+    },
+    {
+      "Identity": "/Users/doanhuy/Downloads/WorkSpace/MyWebApp/wwwroot/Img/sanpham/cafe2.jpg",
+      "SourceId": "MyWebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/doanhuy/Downloads/WorkSpace/MyWebApp/wwwroot/",
+      "BasePath": "_content/MyWebApp",
+      "RelativePath": "Img/sanpham/cafe2#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "gs5dw3i6o4",
+      "Integrity": "kAq6CtdpFeR78oXraqsmyBA3ZdQLtDDbBe2c/BykkMY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/Img/sanpham/cafe2.jpg"
+    },
+    {
+      "Identity": "/Users/doanhuy/Downloads/WorkSpace/MyWebApp/wwwroot/Img/sanpham/cafe3.jpg",
+      "SourceId": "MyWebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/doanhuy/Downloads/WorkSpace/MyWebApp/wwwroot/",
+      "BasePath": "_content/MyWebApp",
+      "RelativePath": "Img/sanpham/cafe3#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ry00hmjjk2",
+      "Integrity": "HUKpV9vSxefXOaI2boSmPWf8sev9nPYYzar/iwwJfAQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/Img/sanpham/cafe3.jpg"
+    },
+    {
+      "Identity": "/Users/doanhuy/Downloads/WorkSpace/MyWebApp/wwwroot/Img/sanpham/cafe4.jpg",
+      "SourceId": "MyWebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/doanhuy/Downloads/WorkSpace/MyWebApp/wwwroot/",
+      "BasePath": "_content/MyWebApp",
+      "RelativePath": "Img/sanpham/cafe4#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "u7ewqs5i8m",
+      "Integrity": "BtY4vTqKwtTaULOSmZpNeW3dSBIOlkfvkM1TdY69C3o=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/Img/sanpham/cafe4.jpg"
+    },
+    {
+      "Identity": "/Users/doanhuy/Downloads/WorkSpace/MyWebApp/wwwroot/Img/sanpham/tra1.jpg",
+      "SourceId": "MyWebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/doanhuy/Downloads/WorkSpace/MyWebApp/wwwroot/",
+      "BasePath": "_content/MyWebApp",
+      "RelativePath": "Img/sanpham/tra1#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "1lq7jjjt9k",
+      "Integrity": "q+4kGlz1TlTCtvjtHAzk4wonrl1p4mJoxXE5317YnrE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/Img/sanpham/tra1.jpg"
+    },
+    {
+      "Identity": "/Users/doanhuy/Downloads/WorkSpace/MyWebApp/wwwroot/Img/sanpham/tra2.png",
+      "SourceId": "MyWebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/doanhuy/Downloads/WorkSpace/MyWebApp/wwwroot/",
+      "BasePath": "_content/MyWebApp",
+      "RelativePath": "Img/sanpham/tra2#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "xwvnr2t6m7",
+      "Integrity": "r2uJKQ3oiA3prktH9pGgukkpOeZr9/woLxk/0VsoWko=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/Img/sanpham/tra2.png"
+    },
+    {
+      "Identity": "/Users/doanhuy/Downloads/WorkSpace/MyWebApp/wwwroot/Img/sanpham/tra3.jpeg",
+      "SourceId": "MyWebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/doanhuy/Downloads/WorkSpace/MyWebApp/wwwroot/",
+      "BasePath": "_content/MyWebApp",
+      "RelativePath": "Img/sanpham/tra3#[.{fingerprint}]?.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "8qptodcnex",
+      "Integrity": "gBOV2awwjKkB5i0LDPUpnbbCoLqFRfkAXIza+0N5WqQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/Img/sanpham/tra3.jpeg"
     },
     {
       "Identity": "/Users/doanhuy/Downloads/WorkSpace/MyWebApp/wwwroot/js/chart.js",
@@ -2834,12 +2960,12 @@
   "Endpoints": [
     {
       "Route": "css/site.css",
-      "AssetFile": "/Users/doanhuy/Downloads/WorkSpace/MyWebApp/obj/Debug/net9.0/compressed/fc4x9g7hx4-z4o700wk57.gz",
+      "AssetFile": "/Users/doanhuy/Downloads/WorkSpace/MyWebApp/obj/Debug/net9.0/compressed/fc4x9g7hx4-ru0qy35kdi.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.001303780965"
+          "Quality": "0.001277139208"
         }
       ],
       "ResponseHeaders": [
@@ -2849,15 +2975,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "766"
+          "Value": "782"
         },
         {
           "Name": "ETag",
-          "Value": "\"Z+7uhWsAbazAicpfjJcwcBpxGACwk1R/rcnJ+MXO5qs=\""
+          "Value": "\"IWtIBiS31RYnUIQvmA8E0PIu3V6r7w+M8fjx0Csq/aQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 20 Apr 2025 17:32:47 GMT"
+          "Value": "Mon, 21 Apr 2025 15:48:12 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2877,13 +3003,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"83VFIL83aXUngqedjv6tFJ8uyTCEdKNdWJwMZc71kTQ=\""
+          "Value": "W/\"LdtIDiaHToXsK0QIn2H1u0Sw+jTLbda4fHDPHYCx2yc=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-83VFIL83aXUngqedjv6tFJ8uyTCEdKNdWJwMZc71kTQ="
+          "Value": "sha256-LdtIDiaHToXsK0QIn2H1u0Sw+jTLbda4fHDPHYCx2yc="
         }
       ]
     },
@@ -2898,7 +3024,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1798"
+          "Value": "1839"
         },
         {
           "Name": "Content-Type",
@@ -2906,11 +3032,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"83VFIL83aXUngqedjv6tFJ8uyTCEdKNdWJwMZc71kTQ=\""
+          "Value": "\"LdtIDiaHToXsK0QIn2H1u0Sw+jTLbda4fHDPHYCx2yc=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 20 Apr 2025 17:32:47 GMT"
+          "Value": "Mon, 21 Apr 2025 15:48:12 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2920,13 +3046,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-83VFIL83aXUngqedjv6tFJ8uyTCEdKNdWJwMZc71kTQ="
+          "Value": "sha256-LdtIDiaHToXsK0QIn2H1u0Sw+jTLbda4fHDPHYCx2yc="
         }
       ]
     },
     {
       "Route": "css/site.css.gz",
-      "AssetFile": "/Users/doanhuy/Downloads/WorkSpace/MyWebApp/obj/Debug/net9.0/compressed/fc4x9g7hx4-z4o700wk57.gz",
+      "AssetFile": "/Users/doanhuy/Downloads/WorkSpace/MyWebApp/obj/Debug/net9.0/compressed/fc4x9g7hx4-ru0qy35kdi.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2935,7 +3061,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "766"
+          "Value": "782"
         },
         {
           "Name": "Content-Type",
@@ -2943,11 +3069,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Z+7uhWsAbazAicpfjJcwcBpxGACwk1R/rcnJ+MXO5qs=\""
+          "Value": "\"IWtIBiS31RYnUIQvmA8E0PIu3V6r7w+M8fjx0Csq/aQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 20 Apr 2025 17:32:47 GMT"
+          "Value": "Mon, 21 Apr 2025 15:48:12 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2965,18 +3091,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-Z+7uhWsAbazAicpfjJcwcBpxGACwk1R/rcnJ+MXO5qs="
+          "Value": "sha256-IWtIBiS31RYnUIQvmA8E0PIu3V6r7w+M8fjx0Csq/aQ="
         }
       ]
     },
     {
-      "Route": "css/site.z4o700wk57.css",
-      "AssetFile": "/Users/doanhuy/Downloads/WorkSpace/MyWebApp/obj/Debug/net9.0/compressed/fc4x9g7hx4-z4o700wk57.gz",
+      "Route": "css/site.ru0qy35kdi.css",
+      "AssetFile": "/Users/doanhuy/Downloads/WorkSpace/MyWebApp/obj/Debug/net9.0/compressed/fc4x9g7hx4-ru0qy35kdi.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.001303780965"
+          "Quality": "0.001277139208"
         }
       ],
       "ResponseHeaders": [
@@ -2986,15 +3112,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "766"
+          "Value": "782"
         },
         {
           "Name": "ETag",
-          "Value": "\"Z+7uhWsAbazAicpfjJcwcBpxGACwk1R/rcnJ+MXO5qs=\""
+          "Value": "\"IWtIBiS31RYnUIQvmA8E0PIu3V6r7w+M8fjx0Csq/aQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 20 Apr 2025 17:32:47 GMT"
+          "Value": "Mon, 21 Apr 2025 15:48:12 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3014,13 +3140,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"83VFIL83aXUngqedjv6tFJ8uyTCEdKNdWJwMZc71kTQ=\""
+          "Value": "W/\"LdtIDiaHToXsK0QIn2H1u0Sw+jTLbda4fHDPHYCx2yc=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "z4o700wk57"
+          "Value": "ru0qy35kdi"
         },
         {
           "Name": "label",
@@ -3028,12 +3154,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-83VFIL83aXUngqedjv6tFJ8uyTCEdKNdWJwMZc71kTQ="
+          "Value": "sha256-LdtIDiaHToXsK0QIn2H1u0Sw+jTLbda4fHDPHYCx2yc="
         }
       ]
     },
     {
-      "Route": "css/site.z4o700wk57.css",
+      "Route": "css/site.ru0qy35kdi.css",
       "AssetFile": "/Users/doanhuy/Downloads/WorkSpace/MyWebApp/wwwroot/css/site.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -3043,7 +3169,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1798"
+          "Value": "1839"
         },
         {
           "Name": "Content-Type",
@@ -3051,11 +3177,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"83VFIL83aXUngqedjv6tFJ8uyTCEdKNdWJwMZc71kTQ=\""
+          "Value": "\"LdtIDiaHToXsK0QIn2H1u0Sw+jTLbda4fHDPHYCx2yc=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 20 Apr 2025 17:32:47 GMT"
+          "Value": "Mon, 21 Apr 2025 15:48:12 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3065,7 +3191,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "z4o700wk57"
+          "Value": "ru0qy35kdi"
         },
         {
           "Name": "label",
@@ -3073,13 +3199,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-83VFIL83aXUngqedjv6tFJ8uyTCEdKNdWJwMZc71kTQ="
+          "Value": "sha256-LdtIDiaHToXsK0QIn2H1u0Sw+jTLbda4fHDPHYCx2yc="
         }
       ]
     },
     {
-      "Route": "css/site.z4o700wk57.css.gz",
-      "AssetFile": "/Users/doanhuy/Downloads/WorkSpace/MyWebApp/obj/Debug/net9.0/compressed/fc4x9g7hx4-z4o700wk57.gz",
+      "Route": "css/site.ru0qy35kdi.css.gz",
+      "AssetFile": "/Users/doanhuy/Downloads/WorkSpace/MyWebApp/obj/Debug/net9.0/compressed/fc4x9g7hx4-ru0qy35kdi.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3088,7 +3214,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "766"
+          "Value": "782"
         },
         {
           "Name": "Content-Type",
@@ -3096,11 +3222,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Z+7uhWsAbazAicpfjJcwcBpxGACwk1R/rcnJ+MXO5qs=\""
+          "Value": "\"IWtIBiS31RYnUIQvmA8E0PIu3V6r7w+M8fjx0Csq/aQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 20 Apr 2025 17:32:47 GMT"
+          "Value": "Mon, 21 Apr 2025 15:48:12 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3118,7 +3244,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "z4o700wk57"
+          "Value": "ru0qy35kdi"
         },
         {
           "Name": "label",
@@ -3126,13 +3252,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-Z+7uhWsAbazAicpfjJcwcBpxGACwk1R/rcnJ+MXO5qs="
+          "Value": "sha256-IWtIBiS31RYnUIQvmA8E0PIu3V6r7w+M8fjx0Csq/aQ="
         }
       ]
     },
     {
-      "Route": "img/checkout.kimr87s11o.png",
-      "AssetFile": "/Users/doanhuy/Downloads/WorkSpace/MyWebApp/wwwroot/img/checkout.png",
+      "Route": "Img/logo.ikowgfwwgf.jpg",
+      "AssetFile": "/Users/doanhuy/Downloads/WorkSpace/MyWebApp/wwwroot/Img/logo.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3141,19 +3267,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "16414"
+          "Value": "53179"
         },
         {
           "Name": "Content-Type",
-          "Value": "image/png"
+          "Value": "image/jpeg"
         },
         {
           "Name": "ETag",
-          "Value": "\"RNFfRe1JCOWvPD+X5ouIBtN05C+LKd6NPF8q/6nvn3g=\""
+          "Value": "\"ng+JQpdJOFPqUibkwFJnplRsvqMtmWUzpsDOqEQwksA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 21 Apr 2025 09:06:24 GMT"
+          "Value": "Sat, 26 Apr 2025 02:59:23 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3163,21 +3289,21 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "kimr87s11o"
+          "Value": "ikowgfwwgf"
         },
         {
           "Name": "label",
-          "Value": "img/checkout.png"
+          "Value": "Img/logo.jpg"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-RNFfRe1JCOWvPD+X5ouIBtN05C+LKd6NPF8q/6nvn3g="
+          "Value": "sha256-ng+JQpdJOFPqUibkwFJnplRsvqMtmWUzpsDOqEQwksA="
         }
       ]
     },
     {
-      "Route": "img/checkout.png",
-      "AssetFile": "/Users/doanhuy/Downloads/WorkSpace/MyWebApp/wwwroot/img/checkout.png",
+      "Route": "Img/logo.jpg",
+      "AssetFile": "/Users/doanhuy/Downloads/WorkSpace/MyWebApp/wwwroot/Img/logo.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3186,19 +3312,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "16414"
+          "Value": "53179"
         },
         {
           "Name": "Content-Type",
-          "Value": "image/png"
+          "Value": "image/jpeg"
         },
         {
           "Name": "ETag",
-          "Value": "\"RNFfRe1JCOWvPD+X5ouIBtN05C+LKd6NPF8q/6nvn3g=\""
+          "Value": "\"ng+JQpdJOFPqUibkwFJnplRsvqMtmWUzpsDOqEQwksA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 21 Apr 2025 09:06:24 GMT"
+          "Value": "Sat, 26 Apr 2025 02:59:23 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3208,13 +3334,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-RNFfRe1JCOWvPD+X5ouIBtN05C+LKd6NPF8q/6nvn3g="
+          "Value": "sha256-ng+JQpdJOFPqUibkwFJnplRsvqMtmWUzpsDOqEQwksA="
         }
       ]
     },
     {
-      "Route": "img/coffee-cup.d0gfa9iwp7.png",
-      "AssetFile": "/Users/doanhuy/Downloads/WorkSpace/MyWebApp/wwwroot/img/coffee-cup.png",
+      "Route": "Img/sanpham/banh.jpeg",
+      "AssetFile": "/Users/doanhuy/Downloads/WorkSpace/MyWebApp/wwwroot/Img/sanpham/banh.jpeg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3223,19 +3349,56 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "8293"
+          "Value": "8432"
         },
         {
           "Name": "Content-Type",
-          "Value": "image/png"
+          "Value": "image/jpeg"
         },
         {
           "Name": "ETag",
-          "Value": "\"zSz3gtMasa0AlADrB1yMK8taLBy6iIBhNjdWt19YGrM=\""
+          "Value": "\"6TjnUSTL0L80EvzwGhSsaIupr+krOr7Ib9AI0DsUvr4=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 21 Apr 2025 09:05:05 GMT"
+          "Value": "Sat, 26 Apr 2025 02:25:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-6TjnUSTL0L80EvzwGhSsaIupr+krOr7Ib9AI0DsUvr4="
+        }
+      ]
+    },
+    {
+      "Route": "Img/sanpham/banh.pcudyvqa6o.jpeg",
+      "AssetFile": "/Users/doanhuy/Downloads/WorkSpace/MyWebApp/wwwroot/Img/sanpham/banh.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8432"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"6TjnUSTL0L80EvzwGhSsaIupr+krOr7Ib9AI0DsUvr4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 26 Apr 2025 02:25:29 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3245,21 +3408,21 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "d0gfa9iwp7"
+          "Value": "pcudyvqa6o"
         },
         {
           "Name": "label",
-          "Value": "img/coffee-cup.png"
+          "Value": "Img/sanpham/banh.jpeg"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-zSz3gtMasa0AlADrB1yMK8taLBy6iIBhNjdWt19YGrM="
+          "Value": "sha256-6TjnUSTL0L80EvzwGhSsaIupr+krOr7Ib9AI0DsUvr4="
         }
       ]
     },
     {
-      "Route": "img/coffee-cup.png",
-      "AssetFile": "/Users/doanhuy/Downloads/WorkSpace/MyWebApp/wwwroot/img/coffee-cup.png",
+      "Route": "Img/sanpham/banh2.0ccxl4r12w.jpeg",
+      "AssetFile": "/Users/doanhuy/Downloads/WorkSpace/MyWebApp/wwwroot/Img/sanpham/banh2.jpeg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3268,56 +3431,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "8293"
+          "Value": "4775"
         },
         {
           "Name": "Content-Type",
-          "Value": "image/png"
+          "Value": "image/jpeg"
         },
         {
           "Name": "ETag",
-          "Value": "\"zSz3gtMasa0AlADrB1yMK8taLBy6iIBhNjdWt19YGrM=\""
+          "Value": "\"sHFTkBVvzghB3UjrGmqJ4+TzH3iGnppZtOAQWLfWJAY=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 21 Apr 2025 09:05:05 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-zSz3gtMasa0AlADrB1yMK8taLBy6iIBhNjdWt19YGrM="
-        }
-      ]
-    },
-    {
-      "Route": "img/customer.fw2malc46x.png",
-      "AssetFile": "/Users/doanhuy/Downloads/WorkSpace/MyWebApp/wwwroot/img/customer.png",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "12714"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/png"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"LzaHem+sRd8/1B79le3JvHHhNkFpvV9EKq954Rne/pg=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 21 Apr 2025 09:07:09 GMT"
+          "Value": "Sat, 26 Apr 2025 02:27:21 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3327,21 +3453,21 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "fw2malc46x"
+          "Value": "0ccxl4r12w"
         },
         {
           "Name": "label",
-          "Value": "img/customer.png"
+          "Value": "Img/sanpham/banh2.jpeg"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-LzaHem+sRd8/1B79le3JvHHhNkFpvV9EKq954Rne/pg="
+          "Value": "sha256-sHFTkBVvzghB3UjrGmqJ4+TzH3iGnppZtOAQWLfWJAY="
         }
       ]
     },
     {
-      "Route": "img/customer.png",
-      "AssetFile": "/Users/doanhuy/Downloads/WorkSpace/MyWebApp/wwwroot/img/customer.png",
+      "Route": "Img/sanpham/banh2.jpeg",
+      "AssetFile": "/Users/doanhuy/Downloads/WorkSpace/MyWebApp/wwwroot/Img/sanpham/banh2.jpeg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3350,19 +3476,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "12714"
+          "Value": "4775"
         },
         {
           "Name": "Content-Type",
-          "Value": "image/png"
+          "Value": "image/jpeg"
         },
         {
           "Name": "ETag",
-          "Value": "\"LzaHem+sRd8/1B79le3JvHHhNkFpvV9EKq954Rne/pg=\""
+          "Value": "\"sHFTkBVvzghB3UjrGmqJ4+TzH3iGnppZtOAQWLfWJAY=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 21 Apr 2025 09:07:09 GMT"
+          "Value": "Sat, 26 Apr 2025 02:27:21 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3372,13 +3498,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-LzaHem+sRd8/1B79le3JvHHhNkFpvV9EKq954Rne/pg="
+          "Value": "sha256-sHFTkBVvzghB3UjrGmqJ4+TzH3iGnppZtOAQWLfWJAY="
         }
       ]
     },
     {
-      "Route": "img/logo.di68724x92.png",
-      "AssetFile": "/Users/doanhuy/Downloads/WorkSpace/MyWebApp/wwwroot/img/logo.png",
+      "Route": "Img/sanpham/bm.79g480vjpn.jpeg",
+      "AssetFile": "/Users/doanhuy/Downloads/WorkSpace/MyWebApp/wwwroot/Img/sanpham/bm.jpeg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3387,19 +3513,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "66820"
+          "Value": "8471"
         },
         {
           "Name": "Content-Type",
-          "Value": "image/png"
+          "Value": "image/jpeg"
         },
         {
           "Name": "ETag",
-          "Value": "\"9QEifJQnGVxAOl27j7hE3Nup9rNwnIjirDPTZ2rYZoc=\""
+          "Value": "\"tRz5VKmz/vHc5+3Bh4gi32ldanWXt9sIM3iKnDMsHLA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 11 Apr 2025 11:59:47 GMT"
+          "Value": "Sat, 26 Apr 2025 02:24:57 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3409,21 +3535,21 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "di68724x92"
+          "Value": "79g480vjpn"
         },
         {
           "Name": "label",
-          "Value": "img/logo.png"
+          "Value": "Img/sanpham/bm.jpeg"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-9QEifJQnGVxAOl27j7hE3Nup9rNwnIjirDPTZ2rYZoc="
+          "Value": "sha256-tRz5VKmz/vHc5+3Bh4gi32ldanWXt9sIM3iKnDMsHLA="
         }
       ]
     },
     {
-      "Route": "img/logo.png",
-      "AssetFile": "/Users/doanhuy/Downloads/WorkSpace/MyWebApp/wwwroot/img/logo.png",
+      "Route": "Img/sanpham/bm.jpeg",
+      "AssetFile": "/Users/doanhuy/Downloads/WorkSpace/MyWebApp/wwwroot/Img/sanpham/bm.jpeg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3432,19 +3558,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "66820"
+          "Value": "8471"
         },
         {
           "Name": "Content-Type",
-          "Value": "image/png"
+          "Value": "image/jpeg"
         },
         {
           "Name": "ETag",
-          "Value": "\"9QEifJQnGVxAOl27j7hE3Nup9rNwnIjirDPTZ2rYZoc=\""
+          "Value": "\"tRz5VKmz/vHc5+3Bh4gi32ldanWXt9sIM3iKnDMsHLA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 11 Apr 2025 11:59:47 GMT"
+          "Value": "Sat, 26 Apr 2025 02:24:57 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3454,13 +3580,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-9QEifJQnGVxAOl27j7hE3Nup9rNwnIjirDPTZ2rYZoc="
+          "Value": "sha256-tRz5VKmz/vHc5+3Bh4gi32ldanWXt9sIM3iKnDMsHLA="
         }
       ]
     },
     {
-      "Route": "img/revenue.kt8tdvkka9.png",
-      "AssetFile": "/Users/doanhuy/Downloads/WorkSpace/MyWebApp/wwwroot/img/revenue.png",
+      "Route": "Img/sanpham/cafe1.3gz91rr9r5.jpg",
+      "AssetFile": "/Users/doanhuy/Downloads/WorkSpace/MyWebApp/wwwroot/Img/sanpham/cafe1.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3469,19 +3595,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "17673"
+          "Value": "46556"
         },
         {
           "Name": "Content-Type",
-          "Value": "image/png"
+          "Value": "image/jpeg"
         },
         {
           "Name": "ETag",
-          "Value": "\"GOV7Tcs5Rdmtm9gDSIB93vCRVa0B6LCGgJS/Plo8ch0=\""
+          "Value": "\"TQdqFErAVJf03npbP3O4yycEsMvM1VH6YeHVsRBfWBM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 21 Apr 2025 09:07:55 GMT"
+          "Value": "Sat, 26 Apr 2025 02:19:12 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3491,21 +3617,21 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "kt8tdvkka9"
+          "Value": "3gz91rr9r5"
         },
         {
           "Name": "label",
-          "Value": "img/revenue.png"
+          "Value": "Img/sanpham/cafe1.jpg"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-GOV7Tcs5Rdmtm9gDSIB93vCRVa0B6LCGgJS/Plo8ch0="
+          "Value": "sha256-TQdqFErAVJf03npbP3O4yycEsMvM1VH6YeHVsRBfWBM="
         }
       ]
     },
     {
-      "Route": "img/revenue.png",
-      "AssetFile": "/Users/doanhuy/Downloads/WorkSpace/MyWebApp/wwwroot/img/revenue.png",
+      "Route": "Img/sanpham/cafe1.jpg",
+      "AssetFile": "/Users/doanhuy/Downloads/WorkSpace/MyWebApp/wwwroot/Img/sanpham/cafe1.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3514,19 +3640,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "17673"
+          "Value": "46556"
         },
         {
           "Name": "Content-Type",
-          "Value": "image/png"
+          "Value": "image/jpeg"
         },
         {
           "Name": "ETag",
-          "Value": "\"GOV7Tcs5Rdmtm9gDSIB93vCRVa0B6LCGgJS/Plo8ch0=\""
+          "Value": "\"TQdqFErAVJf03npbP3O4yycEsMvM1VH6YeHVsRBfWBM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 21 Apr 2025 09:07:55 GMT"
+          "Value": "Sat, 26 Apr 2025 02:19:12 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3536,7 +3662,499 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-GOV7Tcs5Rdmtm9gDSIB93vCRVa0B6LCGgJS/Plo8ch0="
+          "Value": "sha256-TQdqFErAVJf03npbP3O4yycEsMvM1VH6YeHVsRBfWBM="
+        }
+      ]
+    },
+    {
+      "Route": "Img/sanpham/cafe2.gs5dw3i6o4.jpg",
+      "AssetFile": "/Users/doanhuy/Downloads/WorkSpace/MyWebApp/wwwroot/Img/sanpham/cafe2.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "101576"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"kAq6CtdpFeR78oXraqsmyBA3ZdQLtDDbBe2c/BykkMY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 26 Apr 2025 02:19:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "gs5dw3i6o4"
+        },
+        {
+          "Name": "label",
+          "Value": "Img/sanpham/cafe2.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-kAq6CtdpFeR78oXraqsmyBA3ZdQLtDDbBe2c/BykkMY="
+        }
+      ]
+    },
+    {
+      "Route": "Img/sanpham/cafe2.jpg",
+      "AssetFile": "/Users/doanhuy/Downloads/WorkSpace/MyWebApp/wwwroot/Img/sanpham/cafe2.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "101576"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"kAq6CtdpFeR78oXraqsmyBA3ZdQLtDDbBe2c/BykkMY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 26 Apr 2025 02:19:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-kAq6CtdpFeR78oXraqsmyBA3ZdQLtDDbBe2c/BykkMY="
+        }
+      ]
+    },
+    {
+      "Route": "Img/sanpham/cafe3.jpg",
+      "AssetFile": "/Users/doanhuy/Downloads/WorkSpace/MyWebApp/wwwroot/Img/sanpham/cafe3.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "302840"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"HUKpV9vSxefXOaI2boSmPWf8sev9nPYYzar/iwwJfAQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 26 Apr 2025 02:26:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-HUKpV9vSxefXOaI2boSmPWf8sev9nPYYzar/iwwJfAQ="
+        }
+      ]
+    },
+    {
+      "Route": "Img/sanpham/cafe3.ry00hmjjk2.jpg",
+      "AssetFile": "/Users/doanhuy/Downloads/WorkSpace/MyWebApp/wwwroot/Img/sanpham/cafe3.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "302840"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"HUKpV9vSxefXOaI2boSmPWf8sev9nPYYzar/iwwJfAQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 26 Apr 2025 02:26:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ry00hmjjk2"
+        },
+        {
+          "Name": "label",
+          "Value": "Img/sanpham/cafe3.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-HUKpV9vSxefXOaI2boSmPWf8sev9nPYYzar/iwwJfAQ="
+        }
+      ]
+    },
+    {
+      "Route": "Img/sanpham/cafe4.jpg",
+      "AssetFile": "/Users/doanhuy/Downloads/WorkSpace/MyWebApp/wwwroot/Img/sanpham/cafe4.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "300211"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"BtY4vTqKwtTaULOSmZpNeW3dSBIOlkfvkM1TdY69C3o=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 26 Apr 2025 02:29:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-BtY4vTqKwtTaULOSmZpNeW3dSBIOlkfvkM1TdY69C3o="
+        }
+      ]
+    },
+    {
+      "Route": "Img/sanpham/cafe4.u7ewqs5i8m.jpg",
+      "AssetFile": "/Users/doanhuy/Downloads/WorkSpace/MyWebApp/wwwroot/Img/sanpham/cafe4.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "300211"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"BtY4vTqKwtTaULOSmZpNeW3dSBIOlkfvkM1TdY69C3o=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 26 Apr 2025 02:29:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "u7ewqs5i8m"
+        },
+        {
+          "Name": "label",
+          "Value": "Img/sanpham/cafe4.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-BtY4vTqKwtTaULOSmZpNeW3dSBIOlkfvkM1TdY69C3o="
+        }
+      ]
+    },
+    {
+      "Route": "Img/sanpham/tra1.1lq7jjjt9k.jpg",
+      "AssetFile": "/Users/doanhuy/Downloads/WorkSpace/MyWebApp/wwwroot/Img/sanpham/tra1.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "196800"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"q+4kGlz1TlTCtvjtHAzk4wonrl1p4mJoxXE5317YnrE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 26 Apr 2025 02:21:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "1lq7jjjt9k"
+        },
+        {
+          "Name": "label",
+          "Value": "Img/sanpham/tra1.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-q+4kGlz1TlTCtvjtHAzk4wonrl1p4mJoxXE5317YnrE="
+        }
+      ]
+    },
+    {
+      "Route": "Img/sanpham/tra1.jpg",
+      "AssetFile": "/Users/doanhuy/Downloads/WorkSpace/MyWebApp/wwwroot/Img/sanpham/tra1.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "196800"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"q+4kGlz1TlTCtvjtHAzk4wonrl1p4mJoxXE5317YnrE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 26 Apr 2025 02:21:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-q+4kGlz1TlTCtvjtHAzk4wonrl1p4mJoxXE5317YnrE="
+        }
+      ]
+    },
+    {
+      "Route": "Img/sanpham/tra2.png",
+      "AssetFile": "/Users/doanhuy/Downloads/WorkSpace/MyWebApp/wwwroot/Img/sanpham/tra2.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "420393"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"r2uJKQ3oiA3prktH9pGgukkpOeZr9/woLxk/0VsoWko=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 26 Apr 2025 02:24:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-r2uJKQ3oiA3prktH9pGgukkpOeZr9/woLxk/0VsoWko="
+        }
+      ]
+    },
+    {
+      "Route": "Img/sanpham/tra2.xwvnr2t6m7.png",
+      "AssetFile": "/Users/doanhuy/Downloads/WorkSpace/MyWebApp/wwwroot/Img/sanpham/tra2.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "420393"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"r2uJKQ3oiA3prktH9pGgukkpOeZr9/woLxk/0VsoWko=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 26 Apr 2025 02:24:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "xwvnr2t6m7"
+        },
+        {
+          "Name": "label",
+          "Value": "Img/sanpham/tra2.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-r2uJKQ3oiA3prktH9pGgukkpOeZr9/woLxk/0VsoWko="
+        }
+      ]
+    },
+    {
+      "Route": "Img/sanpham/tra3.8qptodcnex.jpeg",
+      "AssetFile": "/Users/doanhuy/Downloads/WorkSpace/MyWebApp/wwwroot/Img/sanpham/tra3.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4502"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gBOV2awwjKkB5i0LDPUpnbbCoLqFRfkAXIza+0N5WqQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 26 Apr 2025 02:26:21 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "8qptodcnex"
+        },
+        {
+          "Name": "label",
+          "Value": "Img/sanpham/tra3.jpeg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-gBOV2awwjKkB5i0LDPUpnbbCoLqFRfkAXIza+0N5WqQ="
+        }
+      ]
+    },
+    {
+      "Route": "Img/sanpham/tra3.jpeg",
+      "AssetFile": "/Users/doanhuy/Downloads/WorkSpace/MyWebApp/wwwroot/Img/sanpham/tra3.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4502"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gBOV2awwjKkB5i0LDPUpnbbCoLqFRfkAXIza+0N5WqQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 26 Apr 2025 02:26:21 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-gBOV2awwjKkB5i0LDPUpnbbCoLqFRfkAXIza+0N5WqQ="
         }
       ]
     },

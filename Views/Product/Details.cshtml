@@ -1,0 +1,63 @@
+@model (MyWebApp.Models.Product product, MyWebApp.Models.DetailsProduct details)
+@{
+    ViewData["Title"] = "Chi tiết sản phẩm";
+}
+
+<div class="container mt-5" style="max-width: 900px;">
+    <div class="card shadow-lg rounded-3">
+        <div class="card-header bg-primary text-white text-center">
+            <h3 class="mb-0">Chi tiết sản phẩm</h3>
+        </div>
+        <div class="card-body p-4">
+            <div class="row g-4 align-items-center">
+                <!-- Thông tin sản phẩm -->
+                <div class="col-md-6">
+                    <dl class="row">
+                        <dt class="col-sm-5">Mã sản phẩm:</dt>
+                        <dd class="col-sm-7">@Model.product.MaSP</dd>
+
+                        <dt class="col-sm-5">Tên sản phẩm:</dt>
+                        <dd class="col-sm-7">@Model.product.TenSP</dd>
+
+                        <dt class="col-sm-5">Giá bán:</dt>
+                        <dd class="col-sm-7">@String.Format("{0:#,##0} đ", Model.product.Gia)</dd>
+
+                        <dt class="col-sm-5">Số lượng tồn:</dt>
+                        <dd class="col-sm-7">@Model.product.SoLuongTon</dd>
+
+                        <dt class="col-sm-5">Loại sản phẩm:</dt>
+                        <dd class="col-sm-7">@Model.product.LoaiSP</dd>
+                    </dl>
+                </div>
+
+                <!-- Ảnh sản phẩm -->
+                <div class="col-md-6 text-center">
+                    @if (Model.details != null && !string.IsNullOrEmpty(Model.details.HinhAnh))
+                    {
+                        <img src="@Model.details.HinhAnh"
+                             class="img-fluid rounded-4 border"
+                             style="max-height: 250px; border-color: #ccc;"
+                             alt="Ảnh @Model.product.TenSP"
+                             onerror="this.style.display='none'">
+                    }
+                </div>
+            </div>
+
+            <!-- Mô tả chi tiết -->
+            @if (Model.details != null && !string.IsNullOrEmpty(Model.details.MoTaChiTiet))
+            {
+                <div class="mt-5 border-top pt-4">
+                    <h5 class="fw-bold mb-3">Mô tả chi tiết</h5>
+                    <p class="mb-0">@Model.details.MoTaChiTiet</p>
+                </div>
+            }
+
+            <!-- Nút quay lại -->
+            <div class="mt-4">
+                <a href="/SanPham" class="btn btn-secondary">
+                    <i class="fas fa-arrow-left me-2"></i>Quay lại
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
