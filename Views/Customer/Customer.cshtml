@@ -1,0 +1,77 @@
+@model List<MyWebApp.Models.Customer>
+
+@{
+    ViewData["Title"] = "Danh sách Khách Hàng ";
+}
+
+<div class="row">
+    <!-- Bảng danh sách khách hàng -->
+    <div class="col-md-7">
+        <div class="card">
+            <div class="card-header">
+                <h4>Danh sách Khách Hàng (Đã là thành viên)</h4>
+            </div>
+            <div class="card-body p-0">
+                <table class="table table-hover table-striped mb-0">
+                    <thead class="table-dark">
+                        <tr>
+                            <th>#</th>
+                            <th>Tên KH</th>
+                            <th>Email</th>
+                            <th>SĐT</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @for (int i = 0; i < Model.Count; i++)
+                        {
+                            <tr onclick="showCustomer(@i)" style="cursor: pointer;">
+                                <td>@(i + 1)</td>
+                                <td>@Model[i].TenKH</td>
+                                <td>@Model[i].Email</td>
+                                <td>@Model[i].SoDienThoai</td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <!-- Khung chi tiết khách hàng -->
+    <div class="col-md-5">
+        <div class="card" id="detailCard" style="display: none;">
+            <div class="card-header">
+                <h4>Thông tin chi tiết</h4>
+            </div>
+            <div class="card-body text-center">
+                <img id="customerImage" src="" alt="Ảnh khách hàng" class="img-thumbnail mb-3" style="max-height: 200px;" />
+                <h5 id="customerName"></h5>
+                <p><strong>Email:</strong> <span id="customerEmail"></span></p>
+                <p><strong>Điện thoại:</strong> <span id="customerPhone"></span></p>
+                <p><strong>Địa chỉ:</strong> <span id="customerAddress"></span></p>
+            </div>
+        </div>
+    </div>
+</div>
+
+@{
+    var options = new System.Text.Json.JsonSerializerOptions
+    {
+        PropertyNamingPolicy = null
+    };
+    var customersJson = System.Text.Json.JsonSerializer.Serialize(Model, options);
+}
+
+<script>
+    var customers = @Html.Raw(customersJson);
+
+    function showCustomer(index) {
+        var customer = customers[index];
+        document.getElementById('detailCard').style.display = 'block';
+        document.getElementById('customerImage').src = customer.HinhAnhKH || 'https://via.placeholder.com/150';
+        document.getElementById('customerName').innerText = customer.TenKH || '';
+        document.getElementById('customerEmail').innerText = customer.Email || '';
+        document.getElementById('customerPhone').innerText = customer.SoDienThoai || '';
+        document.getElementById('customerAddress').innerText = customer.DiaChi || '';
+    }
+</script>

@@ -7,14 +7,19 @@ namespace MyWebApp.Controllers;
 public class HomeController : Controller
 {
     private readonly ILogger<HomeController> _logger;
-
-    public HomeController(ILogger<HomeController> logger)
+    private readonly HomeService _homeService;
+    public HomeController(ILogger<HomeController> logger, HomeService homeService)
     {
         _logger = logger;
+        _homeService = homeService;
     }
 
     public IActionResult Index()
     {
+        int totalProducts = _homeService.GetTotalProducts(); 
+        ViewBag.TotalProducts = totalProducts; 
+        int totalOrders = _homeService.GetTotalOrders();
+        ViewBag.TotalOrders = totalOrders; 
         return View();
     }
 

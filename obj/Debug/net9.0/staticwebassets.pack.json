@@ -5,6 +5,18 @@
       "PackagePath": "staticwebassets/MyWebApp.jfxhsjvdio.bundle.scp.css"
     },
     {
+      "Id": "/Users/doanhuy/Downloads/WorkSpace/MyWebApp/wwwroot/Img/khachhang/ng1.jpeg",
+      "PackagePath": "staticwebassets/Img/khachhang/ng1.jpeg"
+    },
+    {
+      "Id": "/Users/doanhuy/Downloads/WorkSpace/MyWebApp/wwwroot/Img/khachhang/ng2.jpeg",
+      "PackagePath": "staticwebassets/Img/khachhang/ng2.jpeg"
+    },
+    {
+      "Id": "/Users/doanhuy/Downloads/WorkSpace/MyWebApp/wwwroot/Img/khachhang/ng3.jpeg",
+      "PackagePath": "staticwebassets/Img/khachhang/ng3.jpeg"
+    },
+    {
       "Id": "/Users/doanhuy/Downloads/WorkSpace/MyWebApp/wwwroot/Img/logo.jpg",
       "PackagePath": "staticwebassets/Img/logo.jpg"
     },
@@ -35,6 +47,14 @@
     {
       "Id": "/Users/doanhuy/Downloads/WorkSpace/MyWebApp/wwwroot/Img/sanpham/cafe4.jpg",
       "PackagePath": "staticwebassets/Img/sanpham/cafe4.jpg"
+    },
+    {
+      "Id": "/Users/doanhuy/Downloads/WorkSpace/MyWebApp/wwwroot/Img/sanpham/de03ab34-a2c8-494a-99a7-61934a777ff2.jpeg",
+      "PackagePath": "staticwebassets/Img/sanpham/de03ab34-a2c8-494a-99a7-61934a777ff2.jpeg"
+    },
+    {
+      "Id": "/Users/doanhuy/Downloads/WorkSpace/MyWebApp/wwwroot/Img/sanpham/f4e73d03-2e2a-4f80-ae8f-c442b805b8c5.jpeg",
+      "PackagePath": "staticwebassets/Img/sanpham/f4e73d03-2e2a-4f80-ae8f-c442b805b8c5.jpeg"
     },
     {
       "Id": "/Users/doanhuy/Downloads/WorkSpace/MyWebApp/wwwroot/Img/sanpham/tra1.jpg",

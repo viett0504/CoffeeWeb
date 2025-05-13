@@ -1,0 +1,55 @@
+@model (MyWebApp.Models.Order order, List<MyWebApp.Models.DetailsOrder> details)
+
+@{
+    ViewData["Title"] = "Chi tiết đơn hàng ";
+}
+
+<div class="container mt-5">
+    <h2 class="mb-4">Chi tiết đơn hàng - @Model.order.MaDH</h2>
+
+    <!-- Thông tin đơn hàng -->
+    <div class="card mb-4">
+        <div class="card-body">
+            <h5 class="card-title">Thông tin đơn hàng</h5>
+            <p><strong>Mã đơn hàng:</strong> @Model.order.MaDH</p>
+            <p><strong>Ngày đặt:</strong> @Model.order.NgayDat.ToString("dd/MM/yyyy")</p>
+            <p><strong>Tổng tiền:</strong> @Model.order.TongTien.ToString("N0") VNĐ</p>
+            <p><strong>Trạng thái:</strong> @Model.order.TrangThai</p>
+        </div>
+    </div>
+
+    <!-- Danh sách sản phẩm -->
+    <div class="card">
+        <div class="card-body">
+            <h5 class="card-title">Sản phẩm trong đơn hàng</h5>
+            <table class="table table-bordered table-hover">
+                <thead class="table-light">
+                    <tr>
+                        <th>Mã chi tiết đơn</th>
+                        <th>Mã sản phẩm</th>
+                        <th>Số lượng</th>
+                        <th>Đơn giá (VNĐ)</th>
+                        <th>Thành tiền (VNĐ)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                @foreach (var item in Model.details)
+                {
+                    <tr>
+                        <td>@item.MaCTDH</td>
+                        <td>@item.MaSP</td>
+                        <td>@item.SoLuong</td>
+                        <td>@item.DonGia.ToString("N0")</td>
+                        <td>@((item.SoLuong * item.DonGia).ToString("N0"))</td>
+                    </tr>
+                }
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <!-- Nút quay lại -->
+    <div class="mt-4">
+        <a href="/DonHang" class="btn btn-secondary">← Quay lại danh sách đơn hàng</a>
+    </div>
+</div>

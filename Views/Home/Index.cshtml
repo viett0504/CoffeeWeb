@@ -1,98 +1,98 @@
-﻿@{
-    ViewData["Title"] = "VCV Coffee - Trang chủ";
-}
-<div class="container my-4">
-    <div class="p-4 rounded shadow-sm bg-light border">
-        <h2 class="mb-4">📊 Tổng Quan Quản Lý</h2>
+﻿    @{
+        ViewData["Title"] = "Trang chủ ";
+    }
+    <div class="container my-4">
+        <div class="p-4 rounded shadow-sm bg-light border">
+            <h2 class="mb-4">📊 Tổng Quan Quản Lý</h2>
 
-        <div class="row g-4 mb-4">
-            <!-- Sản phẩm -->
-            <div class="col-md-3">
-                <div class="card text-white bg-primary shadow-sm p-3 d-flex flex-row justify-content-between align-items-center rounded-4">
-                    <div>
-                        <h5 class="card-title">Sản phẩm</h5>
-                        <p class="fs-4 mb-0">150</p>
+            <div class="row g-4 mb-4">
+                <!-- Sản phẩm -->
+                <div class="col-md-3">
+                    <div class="card text-white bg-primary shadow-sm p-3 d-flex flex-row justify-content-between align-items-center rounded-4">
+                        <div>
+                            <h5 class="card-title">Sản phẩm</h5>
+                            <p class="fs-4 mb-0">@ViewBag.TotalProducts</p>
+                        </div>
+                        <i class="bi bi-cup-hot fs-1"></i>
                     </div>
-                    <i class="bi bi-cup-hot fs-1"></i>
                 </div>
-            </div>
 
-            <!-- Đơn hàng -->
-            <div class="col-md-3">
-                <div class="card text-white bg-success shadow-sm p-3 d-flex flex-row justify-content-between align-items-center rounded-4">
-                    <div>
-                        <h5 class="card-title">Đơn hàng</h5>
-                        <p class="fs-4 mb-0">230</p>
+                <!-- Đơn hàng -->
+                <div class="col-md-3">
+                    <div class="card text-white bg-success shadow-sm p-3 d-flex flex-row justify-content-between align-items-center rounded-4">
+                        <div>
+                            <h5 class="card-title">Đơn hàng</h5>
+                            <p class="fs-4 mb-0">@ViewBag.TotalOrders</p>
+                        </div>
+                        <i class="bi bi-cart-check fs-1"></i>
                     </div>
-                    <i class="bi bi-cart-check fs-1"></i>
                 </div>
-            </div>
 
-            <!-- Khách hàng -->
-            <div class="col-md-3">
-                <div class="card text-white bg-warning shadow-sm p-3 d-flex flex-row justify-content-between align-items-center rounded-4">
-                    <div>
-                        <h5 class="card-title">Khách hàng</h5>
-                        <p class="fs-4 mb-0">120</p>
+                <!-- Khách hàng -->
+                <div class="col-md-3">
+                    <div class="card text-white bg-warning shadow-sm p-3 d-flex flex-row justify-content-between align-items-center rounded-4">
+                        <div>
+                            <h5 class="card-title">Khách hàng</h5>
+                            <p class="fs-4 mb-0">120</p>
+                        </div>
+                        <i class="bi bi-people fs-1"></i>
                     </div>
-                    <i class="bi bi-people fs-1"></i>
                 </div>
-            </div>
 
-            <!-- Doanh thu -->
-            <div class="col-md-3">
-                <div class="card text-white bg-danger shadow-sm p-3 d-flex flex-row justify-content-between align-items-center rounded-4">
-                    <div>
-                        <h5 class="card-title">Doanh thu</h5>
-                        <p class="fs-4 mb-0">75.000.000đ</p>
-                    </div>
-                    <i class="bi bi-graph-up-arrow fs-1"></i>
-                </div>
-            </div>
-        </div>
-
-        <!-- Biểu đồ & sản phẩm bán chạy -->
-        <div class="row g-4 mb-4">
-            <div class="col-md-8">
-                <div class="card shadow-sm rounded-4">
-                    <div class="card-header bg-light fw-bold">📈 Doanh thu theo tháng</div>
-                    <div class="card-body">
-                        <canvas id="revenueChart" height="120"></canvas>
+                <!-- Doanh thu -->
+                <div class="col-md-3">
+                    <div class="card text-white bg-danger shadow-sm p-3 d-flex flex-row justify-content-between align-items-center rounded-4">
+                        <div>
+                            <h5 class="card-title">Doanh thu</h5>
+                            <p class="fs-4 mb-0">75.000.000đ</p>
+                        </div>
+                        <i class="bi bi-graph-up-arrow fs-1"></i>
                     </div>
                 </div>
             </div>
-            <div class="col-md-4">
-                <div class="card shadow-sm rounded-4">
-                    <div class="card-header bg-light fw-bold">🔥 Sản phẩm bán chạy</div>
-                    <ul class="list-group list-group-flush">
-                        <li class="list-group-item">Cà phê sữa đá</li>
-                        <li class="list-group-item">Bạc xỉu</li>
-                        <li class="list-group-item">Cà phê đen</li>
-                    </ul>
+
+            <!-- Biểu đồ & sản phẩm bán chạy -->
+            <div class="row g-4 mb-4">
+                <div class="col-md-8">
+                    <div class="card shadow-sm rounded-4">
+                        <div class="card-header bg-light fw-bold">📈 Doanh thu theo tháng</div>
+                        <div class="card-body">
+                            <canvas id="revenueChart" height="120"></canvas>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card shadow-sm rounded-4">
+                        <div class="card-header bg-light fw-bold">🔥 Sản phẩm bán chạy</div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Cà phê sữa đá</li>
+                            <li class="list-group-item">Bạc xỉu</li>
+                            <li class="list-group-item">Cà phê đen</li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
 
-<script src="/js/chart.js"></script>
-<script>
-    const ctx = document.getElementById('revenueChart').getContext('2d');
-    const revenueChart = new Chart(ctx, {
-        type: 'line',
-        data: {
-            labels: ['T1', 'T2', 'T3', 'T4'],
-            datasets: [{
-                label: 'Doanh thu (triệu)',
-                data: [15, 20, 25, 30],
-                backgroundColor: 'rgba(75, 192, 192, 0.2)',
-                borderColor: 'rgba(75, 192, 192, 1)',
-                borderWidth: 2
-            }]
-        },
-        options: {
-            responsive: true,
-            maintainAspectRatio: false
-        }
-    });
-</script>
+    <script src="/js/chart.js"></script>
+    <script>
+        const ctx = document.getElementById('revenueChart').getContext('2d');
+        const revenueChart = new Chart(ctx, {
+            type: 'line',
+            data: {
+                labels: ['T1', 'T2', 'T3', 'T4'],
+                datasets: [{
+                    label: 'Doanh thu (triệu)',
+                    data: [15, 20, 25, 30],
+                    backgroundColor: 'rgba(75, 192, 192, 0.2)',
+                    borderColor: 'rgba(75, 192, 192, 1)',
+                    borderWidth: 2
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false
+            }
+        });
+    </script>

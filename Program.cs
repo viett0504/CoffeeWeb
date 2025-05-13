@@ -5,8 +5,12 @@ builder.Services.AddControllersWithViews();
 
 
 // Đăng ký ProductService và MssqlConnection vào container DI
-builder.Services.AddScoped<ProductService>();  // Đăng ký ProductService
-builder.Services.AddScoped<MssqlConnection>(); // Đăng ký MssqlConnection
+builder.Services.AddScoped<ProductService>();  
+builder.Services.AddScoped<MssqlConnection>(); 
+builder.Services.AddTransient<HomeService>();
+builder.Services.AddScoped<OrderService>();
+builder.Services.AddScoped<CustomerService>();
+
 
 var app = builder.Build();
 

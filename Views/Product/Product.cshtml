@@ -1,13 +1,13 @@
 @model List<MyWebApp.Models.Product>
 @{
-    ViewData["Title"] = "Sản phẩm";
+    ViewData["Title"] = "Sản phẩm ";
 }
 
 <div class="container mt-5">
     <div class="card shadow-lg rounded">
         <div class="card-header bg-dark text-white d-flex justify-content-between align-items-center">
             <h3 class="mb-0">@ViewData["Title"]</h3>
-            <button type="button" class="btn btn-success btn-sm" data-bs-toggle="modal" data-bs-target="#addProductModal">
+            <button type="button" class="btn btn-info btn-sm text-white" data-bs-toggle="modal" data-bs-target="#addProductModal">
                 <i class="fas fa-plus"></i>
             </button>
         </div>
@@ -25,10 +25,13 @@
                     </tr>
                 </thead>
                 <tbody>
+                    @{
+                        int index = 1;
+                    }
                     @foreach (var product in Model)
                     {
                         <tr>
-                            <td>@product.MaSP</td>
+                            <td>@index</td> <!-- Số thứ tự -->
                             <td>@product.TenSP</td>
                             <td>@product.MoTa</td>
                             <td>@String.Format("{0:#,##0} đ", product.Gia)</td>
@@ -45,6 +48,7 @@
                                 </form>
                             </td>
                         </tr>
+                        index++;
                     }
                 </tbody>
             </table>
@@ -60,7 +64,7 @@
         <h5 class="modal-title" id="addProductModalLabel">Thêm Sản Phẩm Mới</h5>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Đóng"></button>
       </div>
-      <form id="addProductForm" method="post" action="/SanPham/Create">
+      <form id="addProductForm" method="post" action="/SanPham/Create" enctype="multipart/form-data">
           <div class="modal-body">
               <div class="mb-3">
                   <label class="form-label">Tên Sản Phẩm</label>
@@ -82,6 +86,10 @@
                   <label class="form-label">Loại Sản Phẩm</label>
                   <input type="text" name="LoaiSP" class="form-control" required />
               </div>
+              <div class="mb-3">
+                <label class="form-label">Hình ảnh</label>
+                <input type="file" name="HinhAnh" class="form-control" accept="image/*" />
+            </div>
               <div id="validationMessage" class="text-danger mb-2" style="display:none;"></div>
           </div>
           <div class="modal-footer">

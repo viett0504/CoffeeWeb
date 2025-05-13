@@ -20,8 +20,20 @@ build_property._RazorSourceGeneratorDebug =
 build_property.EffectiveAnalysisLevelStyle = 9.0
 build_property.EnableCodeStyleSeverity = 
 
+[/Users/doanhuy/Downloads/WorkSpace/MyWebApp/Views/Customer/Customer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ3VzdG9tZXIvQ3VzdG9tZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/doanhuy/Downloads/WorkSpace/MyWebApp/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/doanhuy/Downloads/WorkSpace/MyWebApp/Views/Order/DetailsOrder.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvT3JkZXIvRGV0YWlsc09yZGVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/doanhuy/Downloads/WorkSpace/MyWebApp/Views/Order/Order.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvT3JkZXIvT3JkZXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/doanhuy/Downloads/WorkSpace/MyWebApp/Views/Product/Details.cshtml]

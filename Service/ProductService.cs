@@ -98,4 +98,25 @@ public class ProductService
 
         cmd.ExecuteNonQuery();
     }
+    public void CreateProductWithImage(Product product, string hinhAnh)
+    {
+        CreateProduct(product); // Gọi tạo sản phẩm trước
+
+        using var conn = _connection.GetConnection();
+        conn.Open();
+
+        // Lấy mã sản phẩm  vừa thêm (cách đơn giản nếu ID tăng tự động)
+        var getIdCmd = new MySqlCommand("SELECT MAX(MaSP) FROM SanPham", conn);
+        int maSP = Convert.ToInt32(getIdCmd.ExecuteScalar());
+
+        var cmd = new MySqlCommand(@"INSERT INTO ChiTietSanPham (MoTaChiTiet, HinhAnh, MaSP)
+                                    VALUES (@MoTaChiTiet, @HinhAnh, @MaSP)", conn);
+
+        cmd.Parameters.AddWithValue("@MoTaChiTiet", product.MoTa ?? "");
+        cmd.Parameters.AddWithValue("@HinhAnh", hinhAnh);
+        cmd.Parameters.AddWithValue("@MaSP", maSP);
+
+        cmd.ExecuteNonQuery();
+    }
+
 }
