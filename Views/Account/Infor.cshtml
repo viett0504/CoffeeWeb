@@ -1,0 +1,20 @@
+@model UserInfo
+@{
+    ViewData["Title"] = "Thông tin tài khoản";
+}
+
+<div class="container mt-5">
+    <div class="card shadow p-4" style="border-radius: 20px; max-width: 600px; margin: auto;">
+        <h3 class="text-center text-danger mb-4">Thông tin tài khoản</h3>
+        <dl class="row">
+            <dt class="col-sm-4">Họ tên:</dt>
+            <dd class="col-sm-8">@Model.HoTen</dd>
+
+            <dt class="col-sm-4">Ngày sinh:</dt>
+            <dd class="col-sm-8">@Model.NgaySinh.ToString("dd/MM/yyyy")</dd>
+
+            <dt class="col-sm-4">Vai trò:</dt>
+            <dd class="col-sm-8">@Model.VaiTro</dd>
+        </dl>
+    </div>
+</div>

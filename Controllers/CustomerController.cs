@@ -44,14 +44,41 @@ public class CustomerController : Controller
     }
 
     [HttpPost("Create")]
-    public IActionResult Create(Customer customer)
+    public IActionResult Create(Customer customer, IFormFile HinhAnhKH)
     {
         if (!ModelState.IsValid)
         {
             return BadRequest(ModelState);
         }
 
-        _customerService.CreateCustomer(customer);
+        string? imagePath = null;
+
+        // Nếu có ảnh được upload
+        if (HinhAnhKH != null && HinhAnhKH.Length > 0)
+        {
+            var uploadsFolder = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "Img", "khachhang");
+            if (!Directory.Exists(uploadsFolder))
+            {
+                Directory.CreateDirectory(uploadsFolder);
+            }
+
+            var fileName = Guid.NewGuid().ToString() + Path.GetExtension(HinhAnhKH.FileName);
+            var filePath = Path.Combine(uploadsFolder, fileName);
+
+            using (var stream = new FileStream(filePath, FileMode.Create))
+            {
+                HinhAnhKH.CopyTo(stream);
+            }
+
+            imagePath = "/Img/khachhang/" + fileName;
+        }
+
+        if (imagePath != null)
+        {
+            customer.HinhAnhKH = imagePath;
+        }
+        _customerService.CreateCustomer(customer, imagePath);
         return RedirectToAction(nameof(Customer));
     }
+
 }

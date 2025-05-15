@@ -1,0 +1,33 @@
+@model MyWebApp.Models.LoginViewModel
+
+@{
+    ViewData["Title"] = "Đăng nhập";
+}
+
+<div class="container d-flex align-items-center justify-content-center min-vh-100">
+    <div class="card shadow p-4" style="max-width: 400px; width: 100%; border-radius: 20px;">
+        <div class="text-center mb-4">
+            <img src="@Url.Content("~/logo.png")" alt="Logo" width="120" />
+            <h3 class="mt-3" style="color: #b3282d;">Đăng nhập</h3>
+        </div>
+
+        <form asp-action="Login" method="post">
+            <div class="mb-3">
+                <label asp-for="Email" class="form-label"></label>
+                <input asp-for="Email" class="form-control rounded-pill" />
+                <span asp-validation-for="Email" class="text-danger small"></span>
+            </div>
+            <div class="mb-3">
+                <label asp-for="MatKhau" class="form-label"></label>
+                <input asp-for="MatKhau" type="password" class="form-control rounded-pill" />
+                <span asp-validation-for="MatKhau" class="text-danger small"></span>
+            </div>
+            <div class="d-grid">
+                <button type="submit" class="btn btn-danger rounded-pill">Đăng nhập</button>
+            </div>
+            <div class="text-center mt-3">
+                <a href="/Account/Register" class="small" style="color: #b3282d;">Bạn chưa có tài khoản? Đăng ký</a>
+            </div>
+        </form>
+    </div>
+</div>

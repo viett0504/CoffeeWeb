@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "00l9kF/8rlB2baOSZFpUf9d6lulDUYd/h9Q/BHnV+0g=",
+  "Hash": "++pfK5v402154tBQzLLsZ52eE/OeW/PgTZzANehYYFw=",
   "Source": "MyWebApp",
   "BasePath": "_content/MyWebApp",
   "Mode": "Default",
@@ -1256,27 +1256,6 @@
       "OriginalItemSpec": "/Users/doanhuy/Downloads/WorkSpace/MyWebApp/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map"
     },
     {
-      "Identity": "/Users/doanhuy/Downloads/WorkSpace/MyWebApp/obj/Debug/net9.0/compressed/ydn4r2363w-m7hll1enzo.gz",
-      "SourceId": "MyWebApp",
-      "SourceType": "Discovered",
-      "ContentRoot": "/Users/doanhuy/Downloads/WorkSpace/MyWebApp/obj/Debug/net9.0/compressed/",
-      "BasePath": "_content/MyWebApp",
-      "RelativePath": "js/chart#[.{fingerprint=m7hll1enzo}]?.js.gz",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "/Users/doanhuy/Downloads/WorkSpace/MyWebApp/wwwroot/js/chart.js",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "Fingerprint": "jjkh5ie9si",
-      "Integrity": "P0/DOramhbBoYangJRXisE9sHVFrX9jy074kseFrCxM=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/Users/doanhuy/Downloads/WorkSpace/MyWebApp/wwwroot/js/chart.js"
-    },
-    {
       "Identity": "/Users/doanhuy/Downloads/WorkSpace/MyWebApp/obj/Debug/net9.0/compressed/yk3ly9er6x-493y06b0oq.gz",
       "SourceId": "MyWebApp",
       "SourceType": "Discovered",
@@ -1508,6 +1487,27 @@
       "OriginalItemSpec": "wwwroot/Img/logo.jpg"
     },
     {
+      "Identity": "/Users/doanhuy/Downloads/WorkSpace/MyWebApp/wwwroot/Img/sanpham/arabica.jpg",
+      "SourceId": "MyWebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/doanhuy/Downloads/WorkSpace/MyWebApp/wwwroot/",
+      "BasePath": "_content/MyWebApp",
+      "RelativePath": "Img/sanpham/arabica#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "6f8j95urwb",
+      "Integrity": "ntF1SoHxuTrnOBFkv4aTozvSDN7dQa83NgqCNj0Lklo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/Img/sanpham/arabica.jpg"
+    },
+    {
       "Identity": "/Users/doanhuy/Downloads/WorkSpace/MyWebApp/wwwroot/Img/sanpham/banh.jpeg",
       "SourceId": "MyWebApp",
       "SourceType": "Discovered",
@@ -1655,12 +1655,12 @@
       "OriginalItemSpec": "wwwroot/Img/sanpham/cafe4.jpg"
     },
     {
-      "Identity": "/Users/doanhuy/Downloads/WorkSpace/MyWebApp/wwwroot/Img/sanpham/de03ab34-a2c8-494a-99a7-61934a777ff2.jpeg",
+      "Identity": "/Users/doanhuy/Downloads/WorkSpace/MyWebApp/wwwroot/Img/sanpham/robusta.jpg",
       "SourceId": "MyWebApp",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/doanhuy/Downloads/WorkSpace/MyWebApp/wwwroot/",
       "BasePath": "_content/MyWebApp",
-      "RelativePath": "Img/sanpham/de03ab34-a2c8-494a-99a7-61934a777ff2#[.{fingerprint}]?.jpeg",
+      "RelativePath": "Img/sanpham/robusta#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1669,32 +1669,11 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "yd6z8kz9nw",
-      "Integrity": "6qzeuTGBNIHoKrfOF0PUawc30xxFfdKyiIUqjDGhgok=",
+      "Fingerprint": "xz5rqinl82",
+      "Integrity": "HenyhariqrQqBtnMZ3+HNogdUprvKABMk7c+GwxDc9s=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/Img/sanpham/de03ab34-a2c8-494a-99a7-61934a777ff2.jpeg"
-    },
-    {
-      "Identity": "/Users/doanhuy/Downloads/WorkSpace/MyWebApp/wwwroot/Img/sanpham/f4e73d03-2e2a-4f80-ae8f-c442b805b8c5.jpeg",
-      "SourceId": "MyWebApp",
-      "SourceType": "Discovered",
-      "ContentRoot": "/Users/doanhuy/Downloads/WorkSpace/MyWebApp/wwwroot/",
-      "BasePath": "_content/MyWebApp",
-      "RelativePath": "Img/sanpham/f4e73d03-2e2a-4f80-ae8f-c442b805b8c5#[.{fingerprint}]?.jpeg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "yd6z8kz9nw",
-      "Integrity": "6qzeuTGBNIHoKrfOF0PUawc30xxFfdKyiIUqjDGhgok=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/Img/sanpham/f4e73d03-2e2a-4f80-ae8f-c442b805b8c5.jpeg"
+      "OriginalItemSpec": "wwwroot/Img/sanpham/robusta.jpg"
     },
     {
       "Identity": "/Users/doanhuy/Downloads/WorkSpace/MyWebApp/wwwroot/Img/sanpham/tra1.jpg",
@@ -1760,12 +1739,12 @@
       "OriginalItemSpec": "wwwroot/Img/sanpham/tra3.jpeg"
     },
     {
-      "Identity": "/Users/doanhuy/Downloads/WorkSpace/MyWebApp/wwwroot/js/chart.js",
+      "Identity": "/Users/doanhuy/Downloads/WorkSpace/MyWebApp/wwwroot/Img/sanpham/tra4.jpeg",
       "SourceId": "MyWebApp",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/doanhuy/Downloads/WorkSpace/MyWebApp/wwwroot/",
       "BasePath": "_content/MyWebApp",
-      "RelativePath": "js/chart#[.{fingerprint}]?.js",
+      "RelativePath": "Img/sanpham/tra4#[.{fingerprint}]?.jpeg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1774,11 +1753,11 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "m7hll1enzo",
-      "Integrity": "njyeEzTHmDTjXPaF1HgXvoudNg5FfYXxaqaWeN/9KxY=",
+      "Fingerprint": "yd6z8kz9nw",
+      "Integrity": "6qzeuTGBNIHoKrfOF0PUawc30xxFfdKyiIUqjDGhgok=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/js/chart.js"
+      "OriginalItemSpec": "wwwroot/Img/sanpham/tra4.jpeg"
     },
     {
       "Identity": "/Users/doanhuy/Downloads/WorkSpace/MyWebApp/wwwroot/js/site.js",
@@ -3690,6 +3669,88 @@
       ]
     },
     {
+      "Route": "Img/sanpham/arabica.6f8j95urwb.jpg",
+      "AssetFile": "/Users/doanhuy/Downloads/WorkSpace/MyWebApp/wwwroot/Img/sanpham/arabica.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "13969"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ntF1SoHxuTrnOBFkv4aTozvSDN7dQa83NgqCNj0Lklo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 13 May 2025 05:35:28 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6f8j95urwb"
+        },
+        {
+          "Name": "label",
+          "Value": "Img/sanpham/arabica.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ntF1SoHxuTrnOBFkv4aTozvSDN7dQa83NgqCNj0Lklo="
+        }
+      ]
+    },
+    {
+      "Route": "Img/sanpham/arabica.jpg",
+      "AssetFile": "/Users/doanhuy/Downloads/WorkSpace/MyWebApp/wwwroot/Img/sanpham/arabica.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "13969"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ntF1SoHxuTrnOBFkv4aTozvSDN7dQa83NgqCNj0Lklo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 13 May 2025 05:35:28 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ntF1SoHxuTrnOBFkv4aTozvSDN7dQa83NgqCNj0Lklo="
+        }
+      ]
+    },
+    {
       "Route": "Img/sanpham/banh.jpeg",
       "AssetFile": "/Users/doanhuy/Downloads/WorkSpace/MyWebApp/wwwroot/Img/sanpham/banh.jpeg",
       "Selectors": [],
@@ -4264,8 +4325,8 @@
       ]
     },
     {
-      "Route": "Img/sanpham/de03ab34-a2c8-494a-99a7-61934a777ff2.jpeg",
-      "AssetFile": "/Users/doanhuy/Downloads/WorkSpace/MyWebApp/wwwroot/Img/sanpham/de03ab34-a2c8-494a-99a7-61934a777ff2.jpeg",
+      "Route": "Img/sanpham/robusta.jpg",
+      "AssetFile": "/Users/doanhuy/Downloads/WorkSpace/MyWebApp/wwwroot/Img/sanpham/robusta.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4274,7 +4335,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "5537"
+          "Value": "12289"
         },
         {
           "Name": "Content-Type",
@@ -4282,11 +4343,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"6qzeuTGBNIHoKrfOF0PUawc30xxFfdKyiIUqjDGhgok=\""
+          "Value": "\"HenyhariqrQqBtnMZ3+HNogdUprvKABMk7c+GwxDc9s=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 30 Apr 2025 04:42:22 GMT"
+          "Value": "Tue, 13 May 2025 05:38:59 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4296,13 +4357,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-6qzeuTGBNIHoKrfOF0PUawc30xxFfdKyiIUqjDGhgok="
+          "Value": "sha256-HenyhariqrQqBtnMZ3+HNogdUprvKABMk7c+GwxDc9s="
         }
       ]
     },
     {
-      "Route": "Img/sanpham/de03ab34-a2c8-494a-99a7-61934a777ff2.yd6z8kz9nw.jpeg",
-      "AssetFile": "/Users/doanhuy/Downloads/WorkSpace/MyWebApp/wwwroot/Img/sanpham/de03ab34-a2c8-494a-99a7-61934a777ff2.jpeg",
+      "Route": "Img/sanpham/robusta.xz5rqinl82.jpg",
+      "AssetFile": "/Users/doanhuy/Downloads/WorkSpace/MyWebApp/wwwroot/Img/sanpham/robusta.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4311,7 +4372,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "5537"
+          "Value": "12289"
         },
         {
           "Name": "Content-Type",
@@ -4319,11 +4380,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"6qzeuTGBNIHoKrfOF0PUawc30xxFfdKyiIUqjDGhgok=\""
+          "Value": "\"HenyhariqrQqBtnMZ3+HNogdUprvKABMk7c+GwxDc9s=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 30 Apr 2025 04:42:22 GMT"
+          "Value": "Tue, 13 May 2025 05:38:59 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4333,97 +4394,15 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "yd6z8kz9nw"
+          "Value": "xz5rqinl82"
         },
         {
           "Name": "label",
-          "Value": "Img/sanpham/de03ab34-a2c8-494a-99a7-61934a777ff2.jpeg"
+          "Value": "Img/sanpham/robusta.jpg"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-6qzeuTGBNIHoKrfOF0PUawc30xxFfdKyiIUqjDGhgok="
-        }
-      ]
-    },
-    {
-      "Route": "Img/sanpham/f4e73d03-2e2a-4f80-ae8f-c442b805b8c5.jpeg",
-      "AssetFile": "/Users/doanhuy/Downloads/WorkSpace/MyWebApp/wwwroot/Img/sanpham/f4e73d03-2e2a-4f80-ae8f-c442b805b8c5.jpeg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "5537"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"6qzeuTGBNIHoKrfOF0PUawc30xxFfdKyiIUqjDGhgok=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 30 Apr 2025 04:46:58 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-6qzeuTGBNIHoKrfOF0PUawc30xxFfdKyiIUqjDGhgok="
-        }
-      ]
-    },
-    {
-      "Route": "Img/sanpham/f4e73d03-2e2a-4f80-ae8f-c442b805b8c5.yd6z8kz9nw.jpeg",
-      "AssetFile": "/Users/doanhuy/Downloads/WorkSpace/MyWebApp/wwwroot/Img/sanpham/f4e73d03-2e2a-4f80-ae8f-c442b805b8c5.jpeg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "5537"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"6qzeuTGBNIHoKrfOF0PUawc30xxFfdKyiIUqjDGhgok=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 30 Apr 2025 04:46:58 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "yd6z8kz9nw"
-        },
-        {
-          "Name": "label",
-          "Value": "Img/sanpham/f4e73d03-2e2a-4f80-ae8f-c442b805b8c5.jpeg"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-6qzeuTGBNIHoKrfOF0PUawc30xxFfdKyiIUqjDGhgok="
+          "Value": "sha256-HenyhariqrQqBtnMZ3+HNogdUprvKABMk7c+GwxDc9s="
         }
       ]
     },
@@ -4674,63 +4653,8 @@
       ]
     },
     {
-      "Route": "js/chart.js",
-      "AssetFile": "/Users/doanhuy/Downloads/WorkSpace/MyWebApp/obj/Debug/net9.0/compressed/ydn4r2363w-m7hll1enzo.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.003597122302"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "277"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"P0/DOramhbBoYangJRXisE9sHVFrX9jy074kseFrCxM=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 21 Apr 2025 07:30:43 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"njyeEzTHmDTjXPaF1HgXvoudNg5FfYXxaqaWeN/9KxY=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-njyeEzTHmDTjXPaF1HgXvoudNg5FfYXxaqaWeN/9KxY="
-        }
-      ]
-    },
-    {
-      "Route": "js/chart.js",
-      "AssetFile": "/Users/doanhuy/Downloads/WorkSpace/MyWebApp/wwwroot/js/chart.js",
+      "Route": "Img/sanpham/tra4.jpeg",
+      "AssetFile": "/Users/doanhuy/Downloads/WorkSpace/MyWebApp/wwwroot/Img/sanpham/tra4.jpeg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4739,35 +4663,35 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "547"
+          "Value": "5537"
         },
         {
           "Name": "Content-Type",
-          "Value": "text/javascript"
+          "Value": "image/jpeg"
         },
         {
           "Name": "ETag",
-          "Value": "\"njyeEzTHmDTjXPaF1HgXvoudNg5FfYXxaqaWeN/9KxY=\""
+          "Value": "\"6qzeuTGBNIHoKrfOF0PUawc30xxFfdKyiIUqjDGhgok=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 21 Apr 2025 07:30:43 GMT"
+          "Value": "Wed, 30 Apr 2025 04:42:22 GMT"
         },
         {
           "Name": "Cache-Control",
-          "Value": "no-cache"
+          "Value": "max-age=3600, must-revalidate"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-njyeEzTHmDTjXPaF1HgXvoudNg5FfYXxaqaWeN/9KxY="
+          "Value": "sha256-6qzeuTGBNIHoKrfOF0PUawc30xxFfdKyiIUqjDGhgok="
         }
       ]
     },
     {
-      "Route": "js/chart.js.gz",
-      "AssetFile": "/Users/doanhuy/Downloads/WorkSpace/MyWebApp/obj/Debug/net9.0/compressed/ydn4r2363w-m7hll1enzo.gz",
+      "Route": "Img/sanpham/tra4.yd6z8kz9nw.jpeg",
+      "AssetFile": "/Users/doanhuy/Downloads/WorkSpace/MyWebApp/wwwroot/Img/sanpham/tra4.jpeg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4776,127 +4700,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "277"
+          "Value": "5537"
         },
         {
           "Name": "Content-Type",
-          "Value": "text/javascript"
+          "Value": "image/jpeg"
         },
         {
           "Name": "ETag",
-          "Value": "\"P0/DOramhbBoYangJRXisE9sHVFrX9jy074kseFrCxM=\""
+          "Value": "\"6qzeuTGBNIHoKrfOF0PUawc30xxFfdKyiIUqjDGhgok=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 21 Apr 2025 07:30:43 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-P0/DOramhbBoYangJRXisE9sHVFrX9jy074kseFrCxM="
-        }
-      ]
-    },
-    {
-      "Route": "js/chart.m7hll1enzo.js",
-      "AssetFile": "/Users/doanhuy/Downloads/WorkSpace/MyWebApp/obj/Debug/net9.0/compressed/ydn4r2363w-m7hll1enzo.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.003597122302"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "277"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"P0/DOramhbBoYangJRXisE9sHVFrX9jy074kseFrCxM=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 21 Apr 2025 07:30:43 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"njyeEzTHmDTjXPaF1HgXvoudNg5FfYXxaqaWeN/9KxY=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "m7hll1enzo"
-        },
-        {
-          "Name": "label",
-          "Value": "js/chart.js"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-njyeEzTHmDTjXPaF1HgXvoudNg5FfYXxaqaWeN/9KxY="
-        }
-      ]
-    },
-    {
-      "Route": "js/chart.m7hll1enzo.js",
-      "AssetFile": "/Users/doanhuy/Downloads/WorkSpace/MyWebApp/wwwroot/js/chart.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "547"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"njyeEzTHmDTjXPaF1HgXvoudNg5FfYXxaqaWeN/9KxY=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 21 Apr 2025 07:30:43 GMT"
+          "Value": "Wed, 30 Apr 2025 04:42:22 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4906,68 +4722,15 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "m7hll1enzo"
+          "Value": "yd6z8kz9nw"
         },
         {
           "Name": "label",
-          "Value": "js/chart.js"
+          "Value": "Img/sanpham/tra4.jpeg"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-njyeEzTHmDTjXPaF1HgXvoudNg5FfYXxaqaWeN/9KxY="
-        }
-      ]
-    },
-    {
-      "Route": "js/chart.m7hll1enzo.js.gz",
-      "AssetFile": "/Users/doanhuy/Downloads/WorkSpace/MyWebApp/obj/Debug/net9.0/compressed/ydn4r2363w-m7hll1enzo.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "277"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"P0/DOramhbBoYangJRXisE9sHVFrX9jy074kseFrCxM=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 21 Apr 2025 07:30:43 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "m7hll1enzo"
-        },
-        {
-          "Name": "label",
-          "Value": "js/chart.js.gz"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-P0/DOramhbBoYangJRXisE9sHVFrX9jy074kseFrCxM="
+          "Value": "sha256-6qzeuTGBNIHoKrfOF0PUawc30xxFfdKyiIUqjDGhgok="
         }
       ]
     },

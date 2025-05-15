@@ -33,7 +33,7 @@
                     <div class="card text-white bg-warning shadow-sm p-3 d-flex flex-row justify-content-between align-items-center rounded-4">
                         <div>
                             <h5 class="card-title">Khách hàng</h5>
-                            <p class="fs-4 mb-0">120</p>
+                            <p class="fs-4 mb-0">@ViewBag.TotalCustomer</p>
                         </div>
                         <i class="bi bi-people fs-1"></i>
                     </div>
@@ -44,7 +44,7 @@
                     <div class="card text-white bg-danger shadow-sm p-3 d-flex flex-row justify-content-between align-items-center rounded-4">
                         <div>
                             <h5 class="card-title">Doanh thu</h5>
-                            <p class="fs-4 mb-0">75.000.000đ</p>
+                            <p class="fs-4 mb-0">@ViewBag.TotalRevenue.ToString("N0")đ</p>
                         </div>
                         <i class="bi bi-graph-up-arrow fs-1"></i>
                     </div>
@@ -75,24 +75,36 @@
         </div>
     </div>
 
-    <script src="/js/chart.js"></script>
-    <script>
-        const ctx = document.getElementById('revenueChart').getContext('2d');
-        const revenueChart = new Chart(ctx, {
-            type: 'line',
-            data: {
-                labels: ['T1', 'T2', 'T3', 'T4'],
-                datasets: [{
-                    label: 'Doanh thu (triệu)',
-                    data: [15, 20, 25, 30],
-                    backgroundColor: 'rgba(75, 192, 192, 0.2)',
-                    borderColor: 'rgba(75, 192, 192, 1)',
-                    borderWidth: 2
-                }]
-            },
-            options: {
-                responsive: true,
-                maintainAspectRatio: false
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script>
+    const ctx = document.getElementById('revenueChart').getContext('2d');
+
+    const revenueChart = new Chart(ctx, {
+        type: 'line',
+        data: {
+            labels: @Html.Raw(System.Text.Json.JsonSerializer.Serialize(ViewBag.MonthlyLabels)),
+            datasets: [{
+                label: 'Doanh thu (VNĐ)',
+                data: @Html.Raw(System.Text.Json.JsonSerializer.Serialize(ViewBag.MonthlyValues)),
+                borderColor: 'rgba(75, 192, 192, 1)',
+                backgroundColor: 'rgba(75, 192, 192, 0.2)',
+                borderWidth: 2,
+                tension: 0.3,
+                fill: true
+            }]
+        },
+        options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            scales: {
+                y: {
+                    ticks: {
+                        callback: function(value) {
+                            return value.toLocaleString('vi-VN') + ' đ';
+                        }
+                    }
+                }
             }
-        });
-    </script>
+        }
+    });
+</script>

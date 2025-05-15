@@ -7,18 +7,22 @@
 <div class="row">
     <!-- Bảng danh sách khách hàng -->
     <div class="col-md-7">
-        <div class="card">
-            <div class="card-header">
-                <h4>Danh sách Khách Hàng (Đã là thành viên)</h4>
+        <div class="card shadow-lg rounded">
+            <div class="card-header bg-dark text-white d-flex justify-content-between align-items-center">
+                <h3>Danh sách Khách Hàng (Đã là thành viên)</h4>
+                <button type="button" class="btn btn-info btn-sm text-white" data-bs-toggle="modal" data-bs-target="#addCustomerModal">
+                <i class="fas fa-plus"></i>
+            </button>
             </div>
-            <div class="card-body p-0">
-                <table class="table table-hover table-striped mb-0">
+            <div class="card-body p-4">
+                <table class="table table-hover table-striped table-bordered text-center align-middle">
                     <thead class="table-dark">
                         <tr>
                             <th>#</th>
                             <th>Tên KH</th>
                             <th>Email</th>
                             <th>SĐT</th>
+                            <th> </th>
                         </tr>
                     </thead>
                     <tbody>
@@ -29,6 +33,14 @@
                                 <td>@Model[i].TenKH</td>
                                 <td>@Model[i].Email</td>
                                 <td>@Model[i].SoDienThoai</td>
+                                <td>
+                                
+                                <form method="post" action="/KhachHang/Delete/@Model[i].MaKH" style="display:inline;" onsubmit="return confirm('Bạn có chắc muốn xóa sản phẩm này?');">
+                                    <button type="submit" class="btn btn-sm btn-danger">
+                                        <i class="fas fa-trash-alt"></i> Xóa
+                                    </button>
+                                </form>
+                            </td>
                             </tr>
                         }
                     </tbody>
@@ -54,6 +66,46 @@
     </div>
 </div>
 
+<div class="modal fade" id="addCustomerModal" tabindex="-1" aria-labelledby="addCustomerModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="addCustomerModalLabel">Thêm Khách Hàng Mới</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Đóng"></button>
+      </div>
+      <form id="addCustomerForm" method="post" action="/KhachHang/Create" enctype="multipart/form-data">
+        <div class="modal-body">
+          <div class="mb-3">
+            <label class="form-label">Tên Khách Hàng</label>
+            <input type="text" name="TenKH" class="form-control" required />
+          </div>
+          <div class="mb-3">
+            <label class="form-label">Email</label>
+            <input type="email" name="Email" class="form-control" />
+          </div>
+          <div class="mb-3">
+            <label class="form-label">Số Điện Thoại</label>
+            <input type="text" name="SoDienThoai" class="form-control" />
+          </div>
+          <div class="mb-3">
+            <label class="form-label">Địa Chỉ</label>
+            <textarea name="DiaChi" class="form-control"></textarea>
+          </div>
+          <div class="mb-3">
+            <label class="form-label">Hình ảnh</label>
+            <input type="file" name="HinhAnhKH" class="form-control" accept="image/*" />
+          </div>
+          <div id="validationMessageKH" class="text-danger mb-2" style="display:none;"></div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Hủy</button>
+          <button type="submit" class="btn btn-primary">Lưu</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+
 @{
     var options = new System.Text.Json.JsonSerializerOptions
     {
@@ -62,16 +114,45 @@
     var customersJson = System.Text.Json.JsonSerializer.Serialize(Model, options);
 }
 
+
 <script>
     var customers = @Html.Raw(customersJson);
 
     function showCustomer(index) {
         var customer = customers[index];
         document.getElementById('detailCard').style.display = 'block';
-        document.getElementById('customerImage').src = customer.HinhAnhKH || 'https://via.placeholder.com/150';
+        document.getElementById('customerImage').src = customer.HinhAnhKH || '' ;
         document.getElementById('customerName').innerText = customer.TenKH || '';
         document.getElementById('customerEmail').innerText = customer.Email || '';
         document.getElementById('customerPhone').innerText = customer.SoDienThoai || '';
         document.getElementById('customerAddress').innerText = customer.DiaChi || '';
     }
+
+    document.getElementById("addCustomerForm").addEventListener("submit", function (e) {
+        var tenKH = this.TenKH.value.trim();
+        var email = this.Email.value.trim();
+        var sdt = this.SoDienThoai.value.trim();
+        var diachi = this.DiaChi.value.trim();
+        var message = "";
+
+        if (!tenKH) {
+            message = "Tên khách hàng không được để trống.";
+        }
+        if (!email) {
+            message = "Email khách hàng không được để trống.";
+        }
+        if (!sdt) {
+            message = "SĐT khách hàng không được để trống.";
+        }
+        if (!diachi) {
+            message = "Địa chỉ khách hàng không được để trống.";
+        }
+
+        if (message) {
+            e.preventDefault();
+            var validationDiv = document.getElementById("validationMessageKH");
+            validationDiv.innerText = message;
+            validationDiv.style.display = "block";
+        }
+    });
 </script>

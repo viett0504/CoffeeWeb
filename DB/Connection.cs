@@ -10,6 +10,8 @@ public class MssqlConnection
         _connectionString = configuration.GetConnectionString("MySqlConnection") ?? throw new ArgumentNullException("Connection string not found.");
     }
 
+    public object TaiKhoan { get; internal set; }
+
     public MySqlConnection GetConnection()
     {
         return new MySqlConnection(_connectionString);

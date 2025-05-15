@@ -1,8 +1,11 @@
+using MyWebApp.Services;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
+builder.Services.AddSession();
 
 // Đăng ký ProductService và MssqlConnection vào container DI
 builder.Services.AddScoped<ProductService>();  
@@ -10,7 +13,9 @@ builder.Services.AddScoped<MssqlConnection>();
 builder.Services.AddTransient<HomeService>();
 builder.Services.AddScoped<OrderService>();
 builder.Services.AddScoped<CustomerService>();
-
+builder.Services.AddScoped<RevenueService>();
+builder.Services.AddScoped<IAccountService, AccountService>();
+builder.Services.AddScoped<IUserService, UserService>();
 
 var app = builder.Build();
 
@@ -24,6 +29,8 @@ if (!app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 app.UseRouting();
+
+app.UseSession();
 
 app.UseAuthorization();
 

@@ -2,7 +2,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace MyWebApp.Models;
 
-public class Renueve  {
+public class Revenue  {
     public int MaTK {get; set; }
     public int Thang {get; set; }
     public int Nam {get; set; }

@@ -1,0 +1,81 @@
+@model List<MyWebApp.Models.Revenue>
+@{
+    ViewData["Title"] = "Thống kê doanh thu";
+    var totalRevenue = Model.Sum(r => r.TongDoanhThu);
+}
+
+<div class="container mt-4">
+    <div class="text-center mb-4">
+        <h2 class="fw-bold text-primary"><i class="bi bi-bar-chart-line"></i> Thống kê Doanh thu</h2>
+        <p class="text-muted">Xem doanh thu theo từng tháng trong năm</p>
+    </div>
+
+    <div class="card shadow-sm mb-4">
+        <div class="card-body">
+            <h5 class="card-title text-success">Tổng doanh thu:</h5>
+            <p class="fs-4 fw-semibold text-dark">@totalRevenue.ToString("N0") VNĐ</p>
+        </div>
+    </div>
+
+    <div class="table-responsive">
+        <table class="table table-hover table-bordered text-center align-middle">
+            <thead class="table-dark">
+                <tr>
+                    <th>Tháng</th>
+                    <th>Năm</th>
+                    <th>Doanh thu (VNĐ)</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>@item.Thang</td>
+                        <td>@item.Nam</td>
+                        <td class="text-end text-success">@item.TongDoanhThu.ToString("N0")</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
+<div class="mt-5">
+    <h5 class="fw-bold text-center mb-3">Biểu đồ doanh thu theo tháng</h5>
+    <canvas id="revenueChart" height="100"></canvas>
+</div>
+
+@section Scripts {
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script>
+        const labels = @Html.Raw(Json.Serialize(Model.Select(m => "Tháng " + m.Thang + "/" + m.Nam)));
+        const data = @Html.Raw(Json.Serialize(Model.Select(m => m.TongDoanhThu)));
+
+        const ctx = document.getElementById('revenueChart').getContext('2d');
+        const revenueChart = new Chart(ctx, {
+            type: 'bar',
+            data: {
+                labels: labels,
+                datasets: [{
+                    label: 'Doanh thu (VNĐ)',
+                    data: data,
+                    backgroundColor: 'rgba(54, 162, 235, 0.7)',
+                    borderColor: 'rgba(54, 162, 235, 1)',
+                    borderWidth: 1
+                }]
+            },
+            options: {
+                responsive: true,
+                scales: {
+                    y: {
+                        beginAtZero: true,
+                        ticks: {
+                            callback: function(value) {
+                                return value.toLocaleString('vi-VN') + ' VNĐ';
+                            }
+                        }
+                    }
+                }
+            }
+        });
+    </script>
+}

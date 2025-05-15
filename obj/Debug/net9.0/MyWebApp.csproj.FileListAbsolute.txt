@@ -94,7 +94,6 @@
 /Users/doanhuy/Downloads/WorkSpace/MyWebApp/obj/Debug/net9.0/compressed/5zg7rpvgf1-jfxhsjvdio.gz
 /Users/doanhuy/Downloads/WorkSpace/MyWebApp/obj/Debug/net9.0/MyWebApp.sourcelink.json
 /Users/doanhuy/Downloads/WorkSpace/MyWebApp/obj/Debug/net9.0/compressed/lxqromdiip-95xbs42oc0.gz
-/Users/doanhuy/Downloads/WorkSpace/MyWebApp/obj/Debug/net9.0/compressed/ydn4r2363w-m7hll1enzo.gz
 /Users/doanhuy/Downloads/WorkSpace/MyWebApp/obj/Debug/net9.0/compressed/fc4x9g7hx4-ru0qy35kdi.gz
 /Users/doanhuy/Downloads/WorkSpace/MyWebApp/bin/Debug/net9.0/Azure.Core.dll
 /Users/doanhuy/Downloads/WorkSpace/MyWebApp/bin/Debug/net9.0/Azure.Identity.dll

@@ -37,4 +37,36 @@ public class HomeService
         }
         return total;
     }
+    public int GetTotalCustomer()
+    {
+        int total = 0;
+        using (var connection = _connection.GetConnection())
+        {
+            connection.Open();
+            var query = "SELECT COUNT(*) FROM KhachHang ";
+            using (var command = new MySqlCommand(query, connection))
+            {
+                total = Convert.ToInt32(command.ExecuteScalar());
+            }
+        }
+        return total;
+    }
+    public decimal GetTotalRevenue()
+    {
+        decimal total = 0;
+
+        using (var connection = _connection.GetConnection())
+        {
+            connection.Open();
+            string query = "SELECT SUM(TongDoanhThu) FROM ThongKeDoanhThu";
+            using var command = new MySqlCommand(query, connection);
+            var result = command.ExecuteScalar();
+
+            if (result != DBNull.Value)
+                total = Convert.ToDecimal(result);
+
+            return total;
+        }
+        
+    }
 }

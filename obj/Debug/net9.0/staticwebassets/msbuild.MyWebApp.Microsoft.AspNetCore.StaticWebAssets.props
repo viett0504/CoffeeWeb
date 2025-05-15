@@ -90,6 +90,24 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Img\logo.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Img\sanpham\arabica.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>MyWebApp</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/MyWebApp</BasePath>
+      <RelativePath>Img/sanpham/arabica.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>6f8j95urwb</Fingerprint>
+      <Integrity>ntF1SoHxuTrnOBFkv4aTozvSDN7dQa83NgqCNj0Lklo=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Img\sanpham\arabica.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Img\sanpham\banh.jpeg'))">
       <SourceType>Package</SourceType>
       <SourceId>MyWebApp</SourceId>
@@ -216,41 +234,23 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Img\sanpham\cafe4.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Img\sanpham\de03ab34-a2c8-494a-99a7-61934a777ff2.jpeg'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Img\sanpham\robusta.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>MyWebApp</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/MyWebApp</BasePath>
-      <RelativePath>Img/sanpham/de03ab34-a2c8-494a-99a7-61934a777ff2.jpeg</RelativePath>
+      <RelativePath>Img/sanpham/robusta.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>yd6z8kz9nw</Fingerprint>
-      <Integrity>6qzeuTGBNIHoKrfOF0PUawc30xxFfdKyiIUqjDGhgok=</Integrity>
+      <Fingerprint>xz5rqinl82</Fingerprint>
+      <Integrity>HenyhariqrQqBtnMZ3+HNogdUprvKABMk7c+GwxDc9s=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Img\sanpham\de03ab34-a2c8-494a-99a7-61934a777ff2.jpeg'))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Img\sanpham\f4e73d03-2e2a-4f80-ae8f-c442b805b8c5.jpeg'))">
-      <SourceType>Package</SourceType>
-      <SourceId>MyWebApp</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MyWebApp</BasePath>
-      <RelativePath>Img/sanpham/f4e73d03-2e2a-4f80-ae8f-c442b805b8c5.jpeg</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>yd6z8kz9nw</Fingerprint>
-      <Integrity>6qzeuTGBNIHoKrfOF0PUawc30xxFfdKyiIUqjDGhgok=</Integrity>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Img\sanpham\f4e73d03-2e2a-4f80-ae8f-c442b805b8c5.jpeg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Img\sanpham\robusta.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Img\sanpham\tra1.jpg'))">
       <SourceType>Package</SourceType>
@@ -306,23 +306,23 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Img\sanpham\tra3.jpeg'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\chart.js'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Img\sanpham\tra4.jpeg'))">
       <SourceType>Package</SourceType>
       <SourceId>MyWebApp</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/MyWebApp</BasePath>
-      <RelativePath>js/chart.js</RelativePath>
+      <RelativePath>Img/sanpham/tra4.jpeg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>m7hll1enzo</Fingerprint>
-      <Integrity>njyeEzTHmDTjXPaF1HgXvoudNg5FfYXxaqaWeN/9KxY=</Integrity>
+      <Fingerprint>yd6z8kz9nw</Fingerprint>
+      <Integrity>6qzeuTGBNIHoKrfOF0PUawc30xxFfdKyiIUqjDGhgok=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\chart.js'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Img\sanpham\tra4.jpeg'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\site.js'))">
       <SourceType>Package</SourceType>

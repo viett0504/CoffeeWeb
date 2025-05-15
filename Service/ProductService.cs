@@ -91,7 +91,7 @@ public class ProductService
                                     VALUES (@TenSP, @MoTa, @Gia, @SoLuongTon, @LoaiSP, FALSE)", conn);
 
         cmd.Parameters.AddWithValue("@TenSP", product.TenSP);
-        cmd.Parameters.AddWithValue("@MoTa", product.MoTa ?? "");  // nếu null thì lưu ""
+        cmd.Parameters.AddWithValue("@MoTa", product.MoTa ?? "");  
         cmd.Parameters.AddWithValue("@Gia", product.Gia);
         cmd.Parameters.AddWithValue("@SoLuongTon", product.SoLuongTon);
         cmd.Parameters.AddWithValue("@LoaiSP", product.LoaiSP ?? "");
@@ -100,12 +100,11 @@ public class ProductService
     }
     public void CreateProductWithImage(Product product, string hinhAnh)
     {
-        CreateProduct(product); // Gọi tạo sản phẩm trước
+        CreateProduct(product); 
 
         using var conn = _connection.GetConnection();
         conn.Open();
 
-        // Lấy mã sản phẩm  vừa thêm (cách đơn giản nếu ID tăng tự động)
         var getIdCmd = new MySqlCommand("SELECT MAX(MaSP) FROM SanPham", conn);
         int maSP = Convert.ToInt32(getIdCmd.ExecuteScalar());
 
@@ -118,5 +117,30 @@ public class ProductService
 
         cmd.ExecuteNonQuery();
     }
+    public void UpdateProduct(Product product, string moTaChiTiet)
+    {
+        using var conn = _connection.GetConnection();
+        conn.Open();
 
+        var cmd = new MySqlCommand(@"UPDATE SanPham 
+                                    SET TenSP = @TenSP, MoTa = @MoTa, Gia = @Gia, 
+                                        SoLuongTon = @SoLuongTon, LoaiSP = @LoaiSP 
+                                    WHERE MaSP = @MaSP", conn);
+
+        cmd.Parameters.AddWithValue("@MaSP", product.MaSP);
+        cmd.Parameters.AddWithValue("@TenSP", product.TenSP);
+        cmd.Parameters.AddWithValue("@MoTa", product.MoTa ?? "");
+        cmd.Parameters.AddWithValue("@Gia", product.Gia);
+        cmd.Parameters.AddWithValue("@SoLuongTon", product.SoLuongTon);
+        cmd.Parameters.AddWithValue("@LoaiSP", product.LoaiSP ?? "");
+        cmd.ExecuteNonQuery();
+
+        // Cập nhật ChiTietSanPham
+        var cmdDetail = new MySqlCommand(@"UPDATE ChiTietSanPham 
+                                        SET MoTaChiTiet = @MoTaChiTiet 
+                                        WHERE MaSP = @MaSP", conn);
+        cmdDetail.Parameters.AddWithValue("@MoTaChiTiet", moTaChiTiet ?? "");
+        cmdDetail.Parameters.AddWithValue("@MaSP", product.MaSP);
+        cmdDetail.ExecuteNonQuery();
+    }
 }

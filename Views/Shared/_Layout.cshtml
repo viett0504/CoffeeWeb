@@ -14,7 +14,9 @@
 @{
     var currentController = ViewContext.RouteData.Values["controller"]?.ToString();
 }
-
+@{
+    var isLoggedIn = Context.Session.GetInt32("MaND") != null;
+}
 <body>
     <header class="bg-danger py-3">
         <div class="container header-container">
@@ -44,8 +46,11 @@
                     </button>
                 </form>
                 <div class="head-acc">
-                    <i class="fas fa-user"></i>
-                    <div>Tài khoản</div>
+                    <a href="@(isLoggedIn ? Url.Action("Info", "Account") : Url.Action("Login", "Account"))" 
+                        class="text-white ">
+                        <i class="fas fa-user"></i>
+                        <div>Tài khoản</div>
+                    </a>
                 </div>
             </div>
             
@@ -73,7 +78,7 @@
                 </a>
             </li>
             <li class="nav-item">
-                <a href="/Revenue" class="nav-link text-dark @(currentController == "Revenue" ? "fw-bold text-primary" : "")">
+                <a href="/ThongKe" class="nav-link text-dark @(currentController == "Revenue" ? "fw-bold text-primary" : "")">
                     📈  Thống kê
                 </a>
             </li>
@@ -85,16 +90,7 @@
         @RenderBody()
     </main>
 
-    @* <footer class="bg-dark text-white py-4">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4">
-                    <h4 class="footer-title">Công ty TNHH Việt Cường Vũ</h4>
-                    <p class="small"></p>
-                </div>
-            </div>
-        </div>
-    </footer> *@
+
 
     <script>
         function syncSlideMenuWidth() {

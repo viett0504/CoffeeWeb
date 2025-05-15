@@ -85,4 +85,17 @@
             return RedirectToAction(nameof(Product));
         }
 
+        [HttpPost("Update")]
+        public IActionResult Update(Product product, string MoTaChiTiet)
+        {
+            if (!ModelState.IsValid)
+            {
+                return View(product);  
+            }
+
+            _productService.UpdateProduct(product, MoTaChiTiet);
+            
+            // Redirect về trang chi tiết sau khi cập nhật thành công
+            return RedirectToAction("Details", new { id = product.MaSP });
+        }
     }

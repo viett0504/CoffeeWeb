@@ -64,7 +64,7 @@ public class CustomerService
         cmd.ExecuteNonQuery();
     }
 
-    public void CreateCustomer(Customer customer)
+    public void CreateCustomer(Customer customer, string imagePath)
     {
         using var conn = _connection.GetConnection();
         conn.Open();
